@@ -1,0 +1,67 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-items: center;
+  line-height: 1.9;
+  letter-spacing: 1.2px;
+}
+
+.landing-page h1 {
+  font-size: 4.4rem;
+  letter-spacing: 1.6px;
+  /* text-align: center; */
+}
+.landing-page p {
+  font-size: 3rem;
+}
+
+.button--landing {
+  padding: 1.2rem 3.2rem;
+  background-color: transparent;
+  border-radius: 14px;
+  cursor: pointer;
+  animation: moveInBottom 0.7s 1.2s;
+  animation-fill-mode: backwards;
+}
+
+.heading-1 {
+  animation-name: moveInLeft;
+  animation-duration: 1.4s;
+}
+.heading-2 {
+  animation-name: moveInRight;
+  animation-duration: 1.4s;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
