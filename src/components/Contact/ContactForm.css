@@ -1,0 +1,45 @@
+.contact-heading {
+  text-align: center;
+  font-size: 4.4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /* gap: 2.4rem; */
+}
+
+form label {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.invalid-message {
+  margin: 0 0 2.2rem 0;
+  font-size: 1.4rem;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input,
+.input-container textarea {
+  margin-bottom: 1.4rem;
+  width: 100%;
+  border-radius: 12px;
+  padding: 0.8rem;
+}
+
+.input-container input:focus,
+.input-container textarea:focus {
+  background-color: #f1f3f5;
+}
+
+.control-invalid {
+  background-color: #ffc9c9;
+}

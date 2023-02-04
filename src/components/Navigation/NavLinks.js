@@ -5,7 +5,7 @@ const NavLinks = () => {
   return (
     <ul className="nav-links">
       <li>
-        <a href="https://">About Me</a>
+        <a href="https://">About</a>
       </li>
       <li>
         <a href="https://">Portfolio</a>

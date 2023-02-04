@@ -2,3 +2,8 @@
   display: block;
   font-size: 4.2rem;
 }
+
+.navigation-name:first-child:hover {
+  color: #e03131;
+  cursor: pointer;
+}

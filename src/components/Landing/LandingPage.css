@@ -1,29 +1,95 @@
 .landing-page {
-  display: flex;
-  flex-direction: column;
-  height: 70vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 90vh;
+  width: 50%;
+  margin: auto;
   align-items: center;
   justify-items: center;
-  line-height: 1.9;
+  /* line-height: 0; */
   letter-spacing: 1.2px;
+}
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .landing-page h1 {
-  font-size: 4.4rem;
+  margin: 2.6rem;
+  font-size: 5.2rem;
   letter-spacing: 1.6px;
-  /* text-align: center; */
+  text-align: center;
+  font-weight: 400;
+  line-height: 0.8;
 }
 .landing-page p {
-  font-size: 3rem;
+  margin: 0 0 4.2rem 0;
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 1.05;
+}
+.landing-page span {
+  color: #15aabf;
 }
 
-.button--landing {
-  padding: 1.2rem 3.2rem;
-  background-color: transparent;
+.btn:link,
+.btn:active {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.4rem 4rem;
+
+  border: 2px solid;
   border-radius: 14px;
-  cursor: pointer;
-  animation: moveInBottom 0.7s 1.2s;
+  transition: all 0.2s;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  animation: moveInBottom 0.5s 0.75s;
   animation-fill-mode: backwards;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: transparent;
+  color: #15aabf;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  border-style: none;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  border: 2px solid #15aabf;
+  border-radius: 14px;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.2) scaleY(1.6);
+  opacity: 0;
 }
 
 .heading-1 {
@@ -31,9 +97,11 @@
   animation-duration: 1.4s;
 }
 .heading-2 {
+  margin-bottom: 5rem;
   animation-name: moveInRight;
   animation-duration: 1.4s;
 }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -63,5 +131,18 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 52.5%;
+  }
+  .landing-page h1 {
+    line-height: 1.1;
+  }
+  .landing-page p {
+    line-height: 1.4;
+    margin-bottom: 8.2rem;
   }
 }

@@ -2,6 +2,7 @@ import React, { useCallback } from "react";
 import Particle from "./components/Particles";
 import MainNavigation from "./components/Navigation/MainNavigation";
 import About from "./components/About/About";
+import ContactForm from "./components/Contact/ContactForm";
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <section className="section-about">
         <About />
       </section>
-      <section className="section-technologies"></section>
       <section className="section-portfolio"></section>
+      <section className="section-contact">
+        <ContactForm />
+      </section>
     </div>
   );
 }
