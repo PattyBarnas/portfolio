@@ -1,6 +1,8 @@
 .contact-heading {
   text-align: center;
-  font-size: 4.4rem;
+  font-size: 5.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 form {
@@ -10,7 +12,6 @@ form {
   height: 100%;
   align-items: center;
   justify-content: center;
-  /* gap: 2.4rem; */
 }
 
 form label {

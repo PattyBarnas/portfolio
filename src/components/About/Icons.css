@@ -5,38 +5,33 @@ ion-icon {
   border: 3px solid black;
   border-radius: 14px;
   padding: 2.4rem;
+  transition: all 500ms ease;
 }
 
 ion-icon:hover {
-  animation-name: spin;
-  animation-duration: 2.4s;
+  transform: scale(1.15);
 }
 
 .skills {
   padding: 3.2rem;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .skill-row-1,
 .skill-row-2,
 .skill-row-3 {
+  opacity: 0;
   display: flex;
   gap: 4.8rem;
   margin-bottom: 4.8rem;
-  animation-name: moveInRight;
-  animation-duration: 1.4s;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.skill-row-animate {
+  opacity: 1;
+  animation-name: moveInRight;
+  animation-duration: 1.4s;
 }

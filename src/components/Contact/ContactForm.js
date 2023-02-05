@@ -1,5 +1,6 @@
 import "./ContactForm.css";
 import React, { useRef, useState } from "react";
+import Button from "../UIElements/Button";
 
 const isEmpty = (val) => val.trim() === "";
 const isEmail = (value) =>
@@ -48,7 +49,7 @@ const ContactForm = () => {
 
   return (
     <React.Fragment>
-      <h4 className="contact-heading">Get In Touch!</h4>
+      <h4 className="contact-heading">Get In Touch</h4>
       <form onSubmit={formSubmitHandler}>
         <div className="input-container">
           <label htmlFor="name">Name</label>
@@ -89,7 +90,7 @@ const ContactForm = () => {
             </p>
           )}
         </div>
-        <button>Send</button>
+        <Button>Send</Button>
       </form>
     </React.Fragment>
   );

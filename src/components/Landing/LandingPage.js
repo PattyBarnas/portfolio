@@ -1,6 +1,5 @@
 import "./LandingPage.css";
 import React from "react";
-import Button from "../UIElements/Buttons";
 
 const LandingPage = () => {
   return (
