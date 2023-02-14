@@ -8,9 +8,11 @@
   justify-items: center;
   /* line-height: 0; */
   letter-spacing: 1.2px;
+  /* background-color: black; */
 }
 .landing-container {
   display: flex;
+  position: relative;
   flex-direction: column;
   height: 100%;
   width: 100%;
@@ -42,7 +44,6 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.4rem 4rem;
-
   border: 2px solid;
   border-radius: 14px;
   transition: all 0.2s;
@@ -51,11 +52,30 @@
   position: relative;
   animation: moveInBottom 0.5s 0.75s;
   animation-fill-mode: backwards;
+  margin-bottom: 9.2rem;
 }
 
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 20px rgba(0, 0, 0, 0.2);
+}
+.landing-container ion-icon {
+  display: block;
+  width: 100%;
+  border: none;
+  position: absolute;
+  bottom: 10%;
+}
+.arrow-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-end;
+}
+.landing-container ion-icon {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
 .btn:active {
@@ -131,6 +151,21 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
 

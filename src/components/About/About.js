@@ -2,6 +2,7 @@ import "./About.css";
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import imageOfMe from "../Images/portfolio-photo.jpg";
 import Icons from "./Icons";
+import { DarkTheme } from "../../config/Themes";
 
 const About = () => {
   const ref = useRef();
@@ -20,17 +21,27 @@ const About = () => {
 
   return (
     <div className="about">
-      <h3 className="about-heading">About</h3>
+      <h3 className="about-heading">About ME</h3>
+      <p className="about-heading-p">
+        Here you will find out more about me, mostly in terms of technology and
+        programming.
+      </p>
       <div className={`about-me ${visible ? "about-me-animate" : ""}`}>
+        <p id="about-me-p">Get to know me!</p>
         <img src={imageOfMe} alt="me" ref={ref}></img>
 
-        <p>
-          Ever since I was young I was fascinated with technology. I pursued
-          determination, concentration, and masturbation. During my school
-          years, I found a passion for web development and started taking
-          courses online. I love learning and seeing myself progress, if you're
-          willing to work and stay consistent you can achieve anything!
-        </p>
+        <div className="about-me-content">
+          <p>
+            Hello 👋, thank you for visiting my page. My name is Patryk and I'm
+            a full stack web developer with a passion for Frontend Development
+            and Design. I studied at Governors State University and received my
+            bachelor of Computer Science. I love how the web can connect with
+            people, this makes me strive to become better and never stop
+            learning. The technologies I use are React.js, JavaScript,
+            CSS3/SCSS, Node.js, Express.js, WordPress/ReactPress, MongoDB, MySQL
+            (MERN).
+          </p>
+        </div>
       </div>
       <div className="about-skills">
         <Icons visible={visible} />

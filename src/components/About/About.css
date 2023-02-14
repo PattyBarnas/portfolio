@@ -1,23 +1,53 @@
 .about {
   grid-template-columns: 1fr 1fr;
   display: grid;
+  align-items: center;
+  width: 76.5%;
+  margin: 0 auto;
+  margin-bottom: 12.8rem;
+}
+.about-skills {
+  height: 100%;
 }
 
 .about-heading {
-  text-align: center;
-  font-size: 4.4rem;
-  grid-column: 1/-1;
-  margin-bottom: 12.8rem;
+  position: relative;
+  font-size: 3.8rem;
   text-transform: uppercase;
   font-weight: 500;
+  letter-spacing: 1.8px;
+  margin: 0;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.about-heading::after {
+  content: "";
+  display: flex;
+  margin: 2.8rem auto;
+  margin-bottom: 1.8rem;
+  background-color: #e03131;
+  height: 0.5%;
+  width: 2%;
+  padding: 0.3rem;
+}
+.about-heading-p {
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 1.6rem;
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 12.8rem;
+  color: #888;
 }
 
 .about-me {
   opacity: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2.4rem;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
 }
 
 .about-me-animate {
@@ -27,18 +57,29 @@
 }
 
 .about-me img {
-  width: 40%;
-  border-radius: 100%;
+  width: 45%;
+  border-radius: 45%;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.4rem;
+  align-self: center;
 }
+#about-me-p {
+  font-size: 2.8rem;
+  color: #666;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  margin: 0 auto 8rem;
+}
+
 .about-me p {
-  width: 60%;
-  font-size: 1.8rem;
-  letter-spacing: 0.75px;
+  width: 70%;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
   line-height: 1.6;
-  padding: 1.2rem;
   font-weight: 400;
+  color: #555;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -51,5 +92,8 @@
   }
   .about-me img {
     width: 60%;
+  }
+  .about-heading-p {
+    width: 100%;
   }
 }

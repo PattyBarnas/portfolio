@@ -1,24 +1,47 @@
-ion-icon {
+ion-icon,
+.icon {
   display: inline-block;
   width: 5.2rem;
   height: 5.2rem;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 14px;
   padding: 2.4rem;
   transition: all 500ms ease;
 }
 
-ion-icon:hover {
+.skill-row-1 ion-icon:first-child {
+  color: #3bc9db;
+}
+.skill-row-1 ion-icon:nth-child(2) {
+  color: #4dabf7;
+}
+.skill-row-1 ion-icon:last-child {
+  color: #ffe066;
+}
+
+.skill-row-2 ion-icon:nth-child(2) {
+  color: #40c057;
+}
+.skill-row-3 ion-icon:last-child {
+  color: #1098ad;
+}
+
+ion-icon:hover,
+.icon:hover {
   transform: scale(1.15);
+}
+ion-icon:active,
+.icon:active {
+  transform: rotate(360deg);
 }
 
 .skills {
-  padding: 3.2rem;
   height: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-items: flex-start;
 }
 
 .skill-row-1,

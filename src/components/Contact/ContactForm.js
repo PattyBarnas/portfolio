@@ -44,12 +44,13 @@ const ContactForm = () => {
     formInputValid.email ? "" : "control-invalid"
   }`;
   let messageInputControl = `control ${
-    formInputValid.message ? "" : "control-invalid"
+    formInputValid.message ? "" : "control-invalid-text"
   }`;
 
   return (
-    <React.Fragment>
+    <div className="back">
       <h4 className="contact-heading">Get In Touch</h4>
+      <p className="questions-heading">Have any questions?</p>
       <form onSubmit={formSubmitHandler}>
         <div className="input-container">
           <label htmlFor="name">Name</label>
@@ -92,7 +93,7 @@ const ContactForm = () => {
         </div>
         <Button>Send</Button>
       </form>
-    </React.Fragment>
+    </div>
   );
 };
 
