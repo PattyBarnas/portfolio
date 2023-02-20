@@ -44,6 +44,8 @@ Paragraph default: 1.6
 html {
   font-size: 62.5%;
   font-family: "Roboto Slab", serif;
+
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;

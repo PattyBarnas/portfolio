@@ -5,7 +5,7 @@
 .contact-heading {
   text-align: center;
   font-size: 3.8rem;
-  text-transform: uppercase;
+
   font-weight: 500;
   color: white;
   padding: 2.4rem;
@@ -13,9 +13,10 @@
 }
 
 form {
+  position: relative;
   display: flex;
   flex-direction: column;
-  /* width: 80%; */
+  width: 65%;
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -40,45 +41,58 @@ form label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30%;
 }
 .input-container input {
   border: 0;
   background-color: #e9ecef;
   border-bottom: 1px solid #868e96;
   border-radius: 6px;
+  background-color: #868e96;
 }
 .input-container input:focus {
-  border-bottom: 1px solid #15aabf;
+  background-color: #999;
+  border: 1px solid black;
 }
 .input-container input,
 .input-container textarea {
   margin-bottom: 1.4rem;
   width: 100%;
   padding: 0.8rem;
+  background-color: #666;
 }
 .input-container textarea {
   border-radius: 14px;
+  margin-bottom: 3.4rem;
 }
 
 .input-container textarea:focus {
-  background-color: #f1f3f5;
+  background-color: #999;
   border: 1px solid black;
 }
 .control-invalid {
   border-left: 3px solid #fa5252 !important;
 }
 .control-invalid-text {
-  background-color: #ffa8a8;
+  background-color: #ffa8a8 !important;
   /* border-radius: 14px 14px 0 0; */
 }
 .questions-heading {
   text-align: center;
   font-size: 2.4rem;
-  color: #15aabf;
-  margin: 0 0 2.6rem 0;
+  color: #adb5bd;
+  margin: 0 0 4.2rem 0;
+}
+
+.phone-img {
+  width: 12.5%;
+  margin-bottom: 4.2rem;
 }
 @media (max-width: 768px) {
   form {
     width: 85%;
+  }
+  .input-container {
+    width: 75%;
   }
 }

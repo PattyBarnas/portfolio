@@ -5,16 +5,16 @@ const NavLinks = () => {
   return (
     <ul className="nav-links">
       <li>
-        <a href="https://">About</a>
+        <a href="#section-about">About</a>
       </li>
       <li>
-        <a href="https://">Portfolio</a>
+        <a href="#section-projects">Portfolio</a>
       </li>
       <li>
-        <a href="https://">Technologies</a>
+        <a href="#section-tech">Skills</a>
       </li>
       <li>
-        <a href="https://">Contact</a>
+        <a href="#section-contact">Contact</a>
       </li>
     </ul>
   );

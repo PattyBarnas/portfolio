@@ -10,13 +10,13 @@ const LandingPage = () => {
         </h1>
 
         <p className="heading-2">I'm a full stack web developer.</p>
-        <a href="#/" className="btn btn-white btn-animated">
+        <a href="#/" className="btn-landing btn-white btn-animated">
           View my Work
         </a>
 
-        <div className="arrow-down">
+        {/* <div className="arrow-down">
           <ion-icon name="arrow-down-outline"></ion-icon>
-        </div>
+        </div> */}
       </div>
     </div>
   );

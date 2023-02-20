@@ -1,8 +1,10 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React from "react";
 import MainNavigation from "./components/Navigation/MainNavigation";
 import About from "./components/About/About";
 import ContactForm from "./components/Contact/ContactForm";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
+import Icons from "./components/About/Icons";
 
 function App() {
   return (
@@ -10,15 +12,19 @@ function App() {
       <header className="App-header">
         <MainNavigation />
       </header>
-      <section className="section-about">
+      <section id="section-about" className="section-about">
         <About />
       </section>
-      <section className="section-projects">
+      <section id="section-tech" className="section-tech">
+        <Icons />
+      </section>
+      <section id="section-projects" className="section-projects">
         <Projects />
       </section>
-      <section className="section-contact">
+      <section id="section-contact" className="section-contact">
         <ContactForm />
       </section>
+      <Footer />
     </div>
   );
 }

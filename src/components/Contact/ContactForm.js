@@ -1,12 +1,16 @@
 import "./ContactForm.css";
 import React, { useRef, useState } from "react";
 import Button from "../UIElements/Button";
+import messageMe from "../Images/phone-men.svg";
+import Modal from "../UIElements/Modal";
+import Backdrop from "../UIElements/Backdrop";
 
 const isEmpty = (val) => val.trim() === "";
 const isEmail = (value) =>
   value.trim() !== "" && value.length > 5 && value.includes("@");
 
 const ContactForm = () => {
+  const [formSubmitted, setFormSubmitted] = useState(false);
   const [formInputValid, setFormInputValid] = useState({
     name: true,
     email: true,
@@ -35,6 +39,16 @@ const ContactForm = () => {
     const formIsValid = enteredName && enteredEmailValid && enteredMessageValid;
 
     if (!formIsValid) return;
+    nameRef.current.value =
+      emailRef.current.value =
+      messageRef.current.value =
+        "";
+
+    setFormSubmitted(true);
+  };
+
+  const closeModalHandler = () => {
+    setFormSubmitted(false);
   };
 
   let nameInputControl = `control ${
@@ -49,9 +63,16 @@ const ContactForm = () => {
 
   return (
     <div className="back">
-      <h4 className="contact-heading">Get In Touch</h4>
-      <p className="questions-heading">Have any questions?</p>
+      {formSubmitted && <Backdrop onClose={closeModalHandler} />}
+      {formSubmitted && <Modal onClose={closeModalHandler} />}
+      <h4 className="contact-heading">Send me a message!</h4>
+      <p className="questions-heading">
+        Have any questions or proposals? just want to say hello? Please do 😄.
+      </p>
+
       <form onSubmit={formSubmitHandler}>
+        <img src={messageMe} className="phone-img" alt="images of a phone" />
+
         <div className="input-container">
           <label htmlFor="name">Name</label>
           <input

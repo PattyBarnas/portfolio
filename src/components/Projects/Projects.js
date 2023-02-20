@@ -1,10 +1,77 @@
 import "./Projects.css";
+import clipboard from "../Images/ClipBoard.jpg";
+import firetek from "../Images/FiretekHVAC.jpg";
+import clothingInc from "../Images/ClothingInc.jpg";
 
 const Projects = () => {
   return (
     <div className="projects">
       <h3 className="projects-heading">Projects</h3>
-      <div></div>
+      <div className="clipboard-container">
+        <img
+          src={clipboard}
+          alt="Clipboard project"
+          className="project-clipboard"
+        />
+        <div className="clipboard-content">
+          <p className="clipboard-header">
+            <span>ClipBoard</span> - Built using React, Node.js, Express.js, CSS
+          </p>
+
+          <div className="btn-container">
+            <div className="btn b1">
+              <a href="https://pattybarnas.github.io/ClipBoard/">View</a>
+            </div>
+            <div className="btn b1">
+              <a href="https://github.com/PattyBarnas/ClipBoard">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="firetek-container">
+        <div className="firetek-content">
+          <p className="firetek-header">
+            <span>Firetek</span> - Built using React, React Router, Node.js, CSS
+          </p>
+
+          <div className="btn-container">
+            <div className="btn b1">
+              <a href="https://pattybarnas.github.io/firetek-react/">View</a>
+            </div>
+            <div className="btn b1">
+              <a href="https://github.com/PattyBarnas/firetek-react">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <img
+          src={firetek}
+          alt="Clipboard project"
+          className="project-firetek"
+        />
+      </div>
+      <div className="clothing-container">
+        <img
+          src={clothingInc}
+          alt="Clothing Store project"
+          className="project-clothing"
+        />
+        <div className="clothing-content">
+          <p className="clothing-header">
+            <span>Clothing Inc</span> - Built using React.js, Context Hook,
+            Integrated with Stripe.js, CSS.
+          </p>
+
+          <div className="btn-container">
+            <div className="btn b1">
+              <a href="https://pattybarnas.github.io/ClothingInc/">View</a>
+            </div>
+            <div className="btn b1">
+              <a href="https://github.com/PattyBarnas/ClothingInc">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

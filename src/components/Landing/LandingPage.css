@@ -38,8 +38,8 @@
   color: #15aabf;
 }
 
-.btn:link,
-.btn:active {
+.btn-landing:link,
+.btn-landing:active {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -55,7 +55,7 @@
   margin-bottom: 9.2rem;
 }
 
-.btn:hover {
+.btn-landing:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 20px rgba(0, 0, 0, 0.2);
 }
@@ -78,7 +78,7 @@
   animation: bounce 2s infinite;
 }
 
-.btn:active {
+.btn-landing:active {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 10px rgba(0, 0, 0, 0.2);
 }
@@ -88,7 +88,7 @@
   color: #15aabf;
 }
 
-.btn::after {
+.btn-landing::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -107,7 +107,7 @@
   border-radius: 14px;
 }
 
-.btn:hover::after {
+.btn-landing:hover::after {
   transform: scaleX(1.2) scaleY(1.6);
   opacity: 0;
 }

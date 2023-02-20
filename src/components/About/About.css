@@ -3,14 +3,16 @@
   display: grid;
   align-items: center;
   width: 76.5%;
+  height: 100%;
   margin: 0 auto;
-  margin-bottom: 12.8rem;
+  margin-bottom: 2.8rem;
 }
 .about-skills {
   height: 100%;
 }
 
 .about-heading {
+  display: block;
   position: relative;
   font-size: 3.8rem;
   text-transform: uppercase;
@@ -25,20 +27,11 @@
   content: "";
   display: flex;
   margin: 2.8rem auto;
-  margin-bottom: 1.8rem;
+  margin-bottom: 12rem;
   background-color: #e03131;
   height: 0.5%;
-  width: 2%;
+  width: 5%;
   padding: 0.3rem;
-}
-.about-heading-p {
-  grid-column: 1/-1;
-  text-align: center;
-  font-size: 1.6rem;
-  width: 55%;
-  margin: 0 auto;
-  margin-bottom: 12.8rem;
-  color: #888;
 }
 
 .about-me {
@@ -55,44 +48,76 @@
   animation-name: moveInLeft;
   animation-duration: 1.4s;
 }
+.about-skills {
+  opacity: 0;
+}
 
 .about-me img {
   width: 45%;
   border-radius: 45%;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 4.4rem;
+  margin-bottom: 6.2rem;
+  margin-left: 6.8rem;
   align-self: center;
+  padding: 0.8rem;
+  border: 1px solid #999;
 }
 #about-me-p {
   font-size: 2.8rem;
   color: #666;
   font-weight: 600;
-  text-align: center;
   display: block;
-  margin: 0 auto 8rem;
+}
+.about-me-content {
+  opacity: 0;
+  grid-column: 2/-1;
+  height: 100%;
 }
 
-.about-me p {
-  width: 70%;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
+.about-me-content-animate {
+  opacity: 1;
+  animation-name: moveInRight;
+  animation-duration: 1.4s;
+}
+.about-me-description {
+  width: 100%;
+  font-size: 1.9rem;
+  letter-spacing: 1.2px;
   line-height: 1.6;
   font-weight: 400;
   color: #555;
-  margin: 0 auto;
+}
+.about-btn {
+  margin-top: 4.2rem;
+}
+
+@media (max-width: 1500px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .about-me img {
+    display: none;
+  }
+  .about-heading {
+    height: 50%;
+    margin-bottom: 0;
+    grid-column: 2/3;
+  }
+
+  .about-me-content {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 768px) {
-  .about {
-    grid-template-columns: 1fr;
+  .about-me-description {
+    grid-column: 1/-1;
   }
   .about-me p {
     width: 95%;
     margin-bottom: 6.4rem;
   }
-  .about-me img {
-    width: 60%;
-  }
+
   .about-heading-p {
     width: 100%;
   }
