@@ -36,9 +36,9 @@ const About = () => {
           full stack web developer with a passion for Frontend Development and
           Design. I studied at Governors State University and received my
           bachelor of Computer Science. I love how the web can connect with
-          people, this inspires me to become better and to never stop learning.
-          Most of my focus goes towards the MERN stack, although I have
-          knowledge in MySQL databases.
+          people, this inspires me to become better and to never stop learning
+          so that I can make an impact. Most of my focus goes towards the MERN
+          stack, although I have experience with MySQL databases.
         </p>
 
         <div className="btn b1 about-btn">

@@ -2,20 +2,20 @@ import "./MainNavigation.css";
 import React from "react";
 import MainHeader from "./MainHeader";
 import NavLinks from "./NavLinks";
-import LandingPage from "../Landing/LandingPage.js";
 
 const MainNavigation = () => {
   return (
     <React.Fragment>
       <MainHeader>
-        <p className="navigation-name">PB.</p>
-        <nav>
-          <NavLinks></NavLinks>
-        </nav>
+        <div className="nav-bar">
+          <p className="navigation-name">PB.</p>
+
+          <nav>
+            <NavLinks></NavLinks>
+          </nav>
+        </div>
       </MainHeader>
-      <section>
-        <LandingPage />
-      </section>
+      <section>{/* <LandingPage /> */}</section>
     </React.Fragment>
   );
 };

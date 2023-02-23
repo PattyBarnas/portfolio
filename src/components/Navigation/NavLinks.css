@@ -10,18 +10,20 @@
   align-items: center;
   gap: 4.4rem;
   color: #444;
+
+  /* z-index: 2; */
 }
 
 .nav-links li a:link,
 .nav-links li a:visited {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-size: 2.4rem;
 }
 
 .nav-links li a:hover {
-  background-color: #e03131;
-  color: white;
+  background-color: #fff9db;
+  color: black;
   padding: 0.8rem;
 }
 

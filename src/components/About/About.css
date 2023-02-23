@@ -1,3 +1,6 @@
+#section-about {
+  background-color: #e9ecef;
+}
 .about {
   grid-template-columns: 1fr 1fr;
   display: grid;
@@ -5,8 +8,9 @@
   width: 76.5%;
   height: 100%;
   margin: 0 auto;
-  margin-bottom: 2.8rem;
+  padding-bottom: 2.8rem;
 }
+
 .about-skills {
   height: 100%;
 }
@@ -18,7 +22,7 @@
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1.8px;
-  margin: 0;
+
   grid-column: 1/-1;
   text-align: center;
 }
@@ -28,7 +32,7 @@
   display: flex;
   margin: 2.8rem auto;
   margin-bottom: 12rem;
-  background-color: #e03131;
+  background-color: #868e96;
   height: 0.5%;
   width: 5%;
   padding: 0.3rem;
@@ -86,14 +90,19 @@
   line-height: 1.6;
   font-weight: 400;
   color: #555;
+  margin-bottom: 4.2rem;
 }
-.about-btn {
-  margin-top: 4.2rem;
+div .about-btn {
+  border-bottom-color: black;
 }
 
+.about-btn a {
+  color: black;
+}
 @media (max-width: 1500px) {
   .about {
     grid-template-columns: 1fr;
+    width: 92%;
   }
   .about-me img {
     display: none;
@@ -106,6 +115,9 @@
 
   .about-me-content {
     opacity: 1;
+  }
+  div .about-btn {
+    margin: 0 auto;
   }
 }
 

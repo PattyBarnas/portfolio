@@ -1,7 +1,7 @@
 footer {
   display: flex;
   flex-direction: row;
-  background-color: #212529;
+  background-color: black;
   align-items: center;
   justify-content: center;
   gap: 4.2rem;

@@ -1,20 +1,20 @@
 .landing-page {
-  /* display: flex; */
-  /* flex-direction: column; */
-  height: 90vh;
-  width: 50%;
+  position: relative;
+  height: 100%;
+  width: 100%;
   margin: auto;
   align-items: center;
   justify-items: center;
-  /* line-height: 0; */
   letter-spacing: 1.2px;
-  /* background-color: black; */
+  z-index: 1;
+  /* padding-bottom: 4.2rem; */
 }
+
 .landing-container {
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 100%;
+  height: 75%;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -27,12 +27,14 @@
   text-align: center;
   font-weight: 400;
   line-height: 0.8;
+  color: #fff;
 }
 .landing-page p {
   margin: 0 0 4.2rem 0;
   font-size: 2.4rem;
   text-align: center;
   line-height: 1.05;
+  color: #fff;
 }
 .landing-page span {
   color: #15aabf;
@@ -53,6 +55,7 @@
   animation: moveInBottom 0.5s 0.75s;
   animation-fill-mode: backwards;
   margin-bottom: 9.2rem;
+  z-index: 1;
 }
 
 .btn-landing:hover {

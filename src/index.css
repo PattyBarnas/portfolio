@@ -58,8 +58,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#particles-js {
-  width: 100%;
+.header-app {
   height: 100vh;
-  background-color: #111;
 }

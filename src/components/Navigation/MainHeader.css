@@ -1,8 +1,11 @@
 .main-header {
-  display: flex;
+  /* display: flex; */
   padding: 0 4.4rem;
+  /* background-color: #ced4da; */
+  margin-bottom: 4.4rem;
 }
 
 nav {
-  margin-left: auto;
+  /* margin-left: auto; */
+  z-index: 3;
 }

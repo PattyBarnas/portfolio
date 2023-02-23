@@ -1,5 +1,6 @@
 .back {
-  background-color: #495057;
+  /* background: linear-gradient(#000 15%); */
+  background-color: black;
   padding: 4.4rem;
 }
 .contact-heading {
@@ -20,7 +21,7 @@ form {
   height: 100%;
   align-items: center;
   justify-content: center;
-  background-color: #212529;
+  background-color: rgb(6, 10, 15);
   border-radius: 14px;
   margin: 0 auto;
   padding: 4.4rem;
@@ -59,7 +60,7 @@ form label {
   margin-bottom: 1.4rem;
   width: 100%;
   padding: 0.8rem;
-  background-color: #666;
+  background-color: rgb(59, 73, 87);
 }
 .input-container textarea {
   border-radius: 14px;

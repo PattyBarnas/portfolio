@@ -1,6 +1,15 @@
 .projects {
   width: 90%;
-  margin: 2.4rem auto;
+  margin: 0 auto;
+  padding: 5.2rem 0;
+}
+#section-projects {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
+    url("../Images/pramod-tiwari-kmus9gTvnTc-unsplash.jpg");
+  background-position: top;
+  color: white;
+  background: linear-gradient(#000);
+  z-index: 0;
 }
 .projects-heading {
   display: block;
@@ -19,6 +28,7 @@
 .project-clothing {
   height: 40%;
   width: 40%;
+  z-index: 1 !important;
 }
 
 .clipboard-container,
@@ -30,10 +40,14 @@
   margin-bottom: 25rem;
 }
 
+.clothing-container {
+  margin-bottom: 8rem;
+}
+
 .clothing-container img,
 .clipboard-container img,
 .project-firetek {
-  outline: 50px solid #e9ecef;
+  outline: 10px solid #dee2e6;
   z-index: -1;
 }
 .btn-container {
@@ -51,16 +65,15 @@
 }
 
 .b1 {
-  background: -webkit-linear-gradient(0deg, transparent 50%, #ff8787 50%);
+  background: -webkit-linear-gradient(0deg, transparent 50%, #868e96 50%);
   background-size: 400px 80px;
-  border-bottom: 2px solid black;
-  color: black;
+  border-bottom: 2px solid #fff;
 }
 .b1:hover {
   background-position: 200px 0;
 }
 a {
-  color: black;
+  color: #fff;
   font-size: 2rem;
   text-transform: capitalize;
   text-decoration: none;
@@ -79,4 +92,30 @@ a {
 .clipboard-content,
 .clothing-content {
   margin-left: 2.8rem;
+}
+
+@media (max-width: 1200px) {
+  .firetek-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .clipboard-container,
+  .clothing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-clipboard,
+  .project-clothing,
+  .project-firetek {
+    width: 80%;
+    margin-bottom: 4.2rem;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
 }

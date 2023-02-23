@@ -1,5 +1,6 @@
 .skills {
-  background-color: #e9ecef;
+  background: linear-gradient(to left, rgb(5, 23, 41), #000 10%);
+  color: #fff;
 }
 .skills ion-icon,
 .icon,
@@ -7,7 +8,7 @@ svg {
   display: inline-block;
   width: 5.2rem;
   height: 5.2rem;
-  border: 2px solid black;
+  border: 2px solid #fff;
   border-radius: 14px;
   padding: 3.2rem;
   transition: all 500ms ease;
@@ -89,4 +90,7 @@ svg:active {
 }
 
 @media (max-width: 768px) {
+  .skills {
+    background: linear-gradient(to left, rgb(5, 23, 41), #000 0%);
+  }
 }

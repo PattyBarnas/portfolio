@@ -24,10 +24,7 @@ const Icons = (props) => {
           <ion-icon name="logo-nodejs"></ion-icon>
           <p>Node.js</p>
         </div>
-        <div className="icons wordpress">
-          <ion-icon name="logo-wordpress"></ion-icon>
-          <p>WordPress</p>
-        </div>
+
         <div className="icons express">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -86,6 +83,10 @@ const Icons = (props) => {
             </g>
           </svg>
           <p>MySQL</p>
+        </div>
+        <div className="icons wordpress">
+          <ion-icon name="logo-wordpress"></ion-icon>
+          <p>WordPress</p>
         </div>
         <div className="icons github">
           <ion-icon name="logo-github"></ion-icon>
