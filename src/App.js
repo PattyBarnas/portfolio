@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MainNavigation from "./components/Navigation/MainNavigation";
 import About from "./components/About/About";
 import ContactForm from "./components/Contact/ContactForm";

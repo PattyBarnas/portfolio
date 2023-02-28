@@ -30,6 +30,12 @@
   height: 40%;
   width: 40%;
   z-index: 1 !important;
+  transition: all 0.5s;
+}
+.project-clipboard:hover,
+.project-firetek:hover,
+.project-clothing:hover {
+  transform: translateY(-5%);
 }
 
 .clipboard-container,
@@ -83,7 +89,7 @@ a {
 .clipboard-header,
 .firetek-header,
 .clothing-header {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   width: 100%;
 }
 .clipboard-header span,

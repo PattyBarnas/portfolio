@@ -1,6 +1,7 @@
 .skills {
   background: linear-gradient(to left, rgb(5, 23, 41), #000 10%);
   color: #fff;
+  padding-bottom: 7rem;
 }
 .skills ion-icon,
 .icon,
@@ -22,9 +23,6 @@ svg {
   display: flex;
   flex-direction: row;
   gap: 3.8rem;
-}
-.react {
-  margin-left: 0;
 }
 
 .icons p {
