@@ -30,3 +30,12 @@
 .nav-links li a:active {
   background-color: #ff6b6b;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

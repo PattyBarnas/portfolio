@@ -4,6 +4,11 @@ import Button from "../UIElements/Button";
 import messageMe from "../Images/phone-men.svg";
 import Modal from "../UIElements/Modal";
 import Backdrop from "../UIElements/Backdrop";
+import emailjs from "@emailjs/browser";
+
+let publicKey = "VfIzT3kTUIDgpiKZe";
+let serviceId = "service_jl02uxc";
+let templateId = "template_s6d6sx2";
 
 const isEmpty = (val) => val.trim() === "";
 const isEmail = (value) =>
@@ -19,6 +24,7 @@ const ContactForm = () => {
   let nameRef = useRef();
   let emailRef = useRef();
   let messageRef = useRef();
+  let form = useRef();
 
   const formSubmitHandler = (e) => {
     e.preventDefault();
@@ -39,6 +45,15 @@ const ContactForm = () => {
     const formIsValid = enteredName && enteredEmailValid && enteredMessageValid;
 
     if (!formIsValid) return;
+
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      function (error) {
+        console.log("FAILED...", error);
+      }
+    );
     nameRef.current.value =
       emailRef.current.value =
       messageRef.current.value =
@@ -70,12 +85,13 @@ const ContactForm = () => {
         Have any questions or proposals? just want to say hello? Please do 😄.
       </p>
 
-      <form onSubmit={formSubmitHandler}>
+      <form onSubmit={formSubmitHandler} ref={form}>
         <img src={messageMe} className="phone-img" alt="images of a phone" />
 
         <div className="input-container">
           <label htmlFor="name">Name</label>
           <input
+            name="from_name"
             className={nameInputControl}
             type="text"
             id="name"
@@ -90,6 +106,7 @@ const ContactForm = () => {
           <input
             type="text"
             id="email"
+            name="email"
             ref={emailRef}
             className={emailInputControl}
           ></input>
@@ -101,6 +118,7 @@ const ContactForm = () => {
           <label htmlFor="message">Message</label>
           <textarea
             id="message"
+            name="message"
             rows="5"
             cols="40"
             ref={messageRef}

@@ -13,32 +13,28 @@ svg {
   padding: 3.2rem;
   transition: all 500ms ease;
 }
-.icon-container {
-  display: flex;
-  gap: 4.8rem;
-}
 
 .icons {
+  margin-left: 6.2rem;
+  text-align: center;
+}
+.icon-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 6.2rem 0;
+  flex-direction: row;
+  gap: 3.8rem;
+}
+.react {
+  margin-left: 0;
 }
 
 .icons p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 ion-icon:hover,
 .icon:hover,
 svg:hover {
   transform: scale(1.15);
-}
-ion-icon:active,
-.icon:active,
-svg:active {
-  transform: rotate(360deg);
 }
 
 /* COLOR ION ICON */
@@ -83,14 +79,34 @@ svg:active {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1.8px;
-  margin: 0;
   grid-column: 1/-1;
   text-align: center;
-  margin: 4.8rem;
+  margin: 6.8rem 0;
+}
+
+.express svg {
+  stroke: white !important;
+}
+@media (max-width: 1650px) {
+  .icons-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+  }
+
+  .icons {
+    margin-left: 0;
+  }
+  .skills {
+    padding: 3.8rem 0;
+  }
 }
 
 @media (max-width: 768px) {
   .skills {
     background: linear-gradient(to left, rgb(5, 23, 41), #000 0%);
+  }
+  .icon-container {
+    gap: 1.4rem;
   }
 }

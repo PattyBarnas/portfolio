@@ -32,7 +32,8 @@ const Projects = () => {
       <div className="firetek-container">
         <div className="firetek-content">
           <p className="firetek-header">
-            <span>Firetek</span> - Built using React, React Router, Node.js, CSS
+            <span>Firetek</span> - Fully Responsive, built using React, React
+            Router, Node.js, CSS
           </p>
 
           <div className="btn-container">

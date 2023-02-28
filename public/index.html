@@ -48,12 +48,25 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- <div id="tsparticles"></div> -->
+
+    <div id="drawer-hook"></div>
+    <div id="overlays"></div>
+    <div id="backdrop-hook"></div>
 
     <script src="tsparticles.engine.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-bubbles@2/tsparticles.preset.bubbles.bundle.min.js"></script>
 
+    <!-- ////////////////EMAIL JS/////////////// -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("VfIzT3kTUIDgpiKZe");
+      })();
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

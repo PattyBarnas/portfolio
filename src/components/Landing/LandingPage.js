@@ -1,8 +1,5 @@
 import "./LandingPage.css";
-import React, { useState } from "react";
-import beach from "../Images/beach.mp4";
-import clouds from "../Images/beach12.mp4";
-import BackgroundVideo from "./BackgroundVideo.js";
+import React from "react";
 
 const LandingPage = (props) => {
   return (
@@ -20,10 +17,6 @@ const LandingPage = (props) => {
           View my Work
         </a>
       </div>
-
-      {/* <div className="arrow-down">
-          <ion-icon name="arrow-down-outline"></ion-icon>
-        </div> */}
     </div>
   );
 };

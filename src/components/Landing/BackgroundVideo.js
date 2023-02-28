@@ -1,15 +1,22 @@
 import "./BackgroundVideo.css";
-import React from "react";
-import clouds from "../Images/beach12.mp4";
 import moon from "../Images/moon-hero.mp4";
+import moon2 from "../Images/moon-hero.ogv";
+import moon3 from "../Images/moon-hero.webm";
+import moonMobile from "../Images/moon-mobile.jpg";
 
 export default function BackgroundVideo() {
   return (
     <div>
       <div className="overlay" />
-      <video loop autoPlay muted id="bg-video">
-        <source src={moon} type="video/mp4" />
-      </video>
+      <video
+        muted
+        autoPlay={"autoplay"}
+        preLoad="auto"
+        loop
+        id="bg-video"
+        poster={moonMobile}
+        src={moon}
+      />
     </div>
   );
 }

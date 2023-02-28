@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 5.2rem 0;
 }
+
 #section-projects {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
     url("../Images/pramod-tiwari-kmus9gTvnTc-unsplash.jpg");
@@ -21,7 +22,7 @@
   margin: 0;
   grid-column: 1/-1;
   text-align: center;
-  margin-bottom: 12.8rem;
+  margin-bottom: 9.6rem;
 }
 .project-clipboard,
 .project-firetek,
@@ -37,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 25rem;
+  margin-bottom: 18rem;
 }
 
 .clothing-container {
@@ -65,7 +66,7 @@
 }
 
 .b1 {
-  background: -webkit-linear-gradient(0deg, transparent 50%, #868e96 50%);
+  background: -webkit-linear-gradient(0deg, transparent 50%, #15aabf 50%);
   background-size: 400px 80px;
   border-bottom: 2px solid #fff;
 }
@@ -73,7 +74,7 @@
   background-position: 200px 0;
 }
 a {
-  color: #fff;
+  color: #e9ecef;
   font-size: 2rem;
   text-transform: capitalize;
   text-decoration: none;
@@ -82,8 +83,13 @@ a {
 .clipboard-header,
 .firetek-header,
 .clothing-header {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   width: 100%;
+}
+.clipboard-header span,
+.firetek-header span,
+.clothing-header span {
+  font-weight: 600;
 }
 
 .firetek-content {
@@ -95,6 +101,12 @@ a {
 }
 
 @media (max-width: 1200px) {
+  .firetek-content,
+  .clipboard-content,
+  .clothing-content {
+    margin: 0 auto;
+    text-align: center;
+  }
   .firetek-container {
     display: flex;
     flex-direction: column-reverse;
@@ -112,10 +124,16 @@ a {
   .project-clothing,
   .project-firetek {
     width: 80%;
-    margin-bottom: 4.2rem;
+    margin-bottom: 1.8rem;
   }
+
   .btn-container {
     display: flex;
     justify-content: center;
+  }
+  .clipboard-container,
+  .firetek-container,
+  .clothing-container {
+    margin-bottom: 11rem;
   }
 }
