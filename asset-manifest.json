@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ef67291f.css",
+    "main.js": "/portfolio/static/js/main.22a9e7fc.js",
+    "static/media/moon-hero.ogv": "/portfolio/static/media/moon-hero.0dc5965d15cb0effe7aa.ogv",
+    "static/media/moon-hero.mp4": "/portfolio/static/media/moon-hero.a799871d26a92969be0c.mp4",
+    "static/media/portfolio-photo.jpg": "/portfolio/static/media/portfolio-photo.e1c47cc6fee937f175a3.jpg",
+    "static/media/moon-hero.webm": "/portfolio/static/media/moon-hero.17ffd28f51f028189204.webm",
+    "static/media/moon-mobile.jpg": "/portfolio/static/media/moon-mobile.08663679b1c62bd0546b.jpg",
+    "static/media/pramod-tiwari-kmus9gTvnTc-unsplash.jpg": "/portfolio/static/media/pramod-tiwari-kmus9gTvnTc-unsplash.a091c66ccd0e89447444.jpg",
+    "static/media/FiretekHVAC.jpg": "/portfolio/static/media/FiretekHVAC.ee95d51feaeb7f71a67f.jpg",
+    "static/media/ClipBoard.jpg": "/portfolio/static/media/ClipBoard.bbd3f8f6af9dab383670.jpg",
+    "static/media/PatrykBarnas.docx": "/portfolio/static/media/PatrykBarnas.f9e261ed98b60c996326.docx",
+    "static/media/ClothingInc.jpg": "/portfolio/static/media/ClothingInc.bd8c368532a3995e12ea.jpg",
+    "static/media/phone-men.svg": "/portfolio/static/media/phone-men.977bf389a4d4dcb865aee84f1ec340ef.svg",
+    "index.html": "/portfolio/index.html",
+    "main.ef67291f.css.map": "/portfolio/static/css/main.ef67291f.css.map",
+    "main.22a9e7fc.js.map": "/portfolio/static/js/main.22a9e7fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef67291f.css",
+    "static/js/main.22a9e7fc.js"
+  ]
+}
