@@ -7,13 +7,14 @@ import moonMobile from "../Images/moon-mobile.jpg";
 export default function BackgroundVideo() {
   return (
     <div>
-      <div className="overlay" />
+      <div className="video-overlay" />
       <video
         muted
         autoPlay={"autoplay"}
         preLoad="auto"
         loop
         id="bg-video"
+        className="bg-video"
         poster={moonMobile}
         src={moon}
       />
