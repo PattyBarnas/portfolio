@@ -2,6 +2,7 @@
   width: 90%;
   margin: 0 auto;
   padding: 5.2rem 0;
+  padding-bottom: 0.2rem;
 }
 
 #section-projects {
@@ -141,5 +142,13 @@ a {
   .firetek-container,
   .clothing-container {
     margin-bottom: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-clipboard,
+  .project-clothing,
+  .project-firetek {
+    width: 95%;
   }
 }
