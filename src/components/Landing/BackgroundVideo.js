@@ -15,7 +15,7 @@ export default function BackgroundVideo() {
         loop
         id="bg-video"
         className="bg-video"
-        poster={moonMobile}
+        // poster={moonMobile}
         src={moon}
       />
     </div>
