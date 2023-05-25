@@ -1,6 +1,6 @@
 import "./About.css";
 import React, { useState, useRef, useEffect } from "react";
-import imageOfMe from "../Images/portfolio-photo.jpg";
+import imageOfMe from "../Images/image.jpg";
 import resume from "../Resume/PatrykBarnas.docx";
 
 const About = () => {

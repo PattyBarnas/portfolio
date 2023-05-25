@@ -57,7 +57,8 @@
 }
 
 .about-me img {
-  width: 45%;
+  width: 32rem;
+  height: 55rem;
   border-radius: 45%;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
   margin-bottom: 6.2rem;
