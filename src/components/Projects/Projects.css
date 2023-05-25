@@ -68,12 +68,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.8s;
+  transition: 0.5s;
   margin-right: 2.4rem;
 }
 
 .b1 {
-  background: -webkit-linear-gradient(0deg, transparent 50%, #15aabf 50%);
+  background: -webkit-linear-gradient(0deg, transparent 50%, #22b8cf 50%);
   background-size: 400px 80px;
   border-bottom: 2px solid #fff;
 }
