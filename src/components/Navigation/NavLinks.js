@@ -8,7 +8,7 @@ const NavLinks = () => {
         <a href="#section-about">About</a>
       </li>
       <li>
-        <a href="#section-projects">Portfolio</a>
+        <a href="#section-projects">Projects</a>
       </li>
       <li>
         <a href="#section-tech">Skills</a>
