@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2rem;
+  height: 6.2rem;
+  padding: 4.2rem;
+}
+footer ion-icon {
+  height: 4.4rem;
+  width: 4.4rem;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,154 @@
+.projects {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5.2rem 0;
+  padding-bottom: 0.2rem;
+}
+
+#section-projects {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
+    url("../Images/pramod-tiwari-kmus9gTvnTc-unsplash.jpg");
+  background-position: top;
+  color: white;
+  background: linear-gradient(#000);
+  z-index: 0;
+}
+.projects-heading {
+  display: block;
+  position: relative;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  margin: 0;
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+.project-clipboard,
+.project-firetek,
+.project-clothing {
+  height: 40%;
+  width: 40%;
+  z-index: 1 !important;
+  transition: all 0.5s;
+}
+.project-clipboard:hover,
+.project-firetek:hover,
+.project-clothing:hover {
+  transform: translateY(-5%);
+}
+
+.clipboard-container,
+.firetek-container,
+.clothing-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 18rem;
+}
+
+.clothing-container {
+  margin-bottom: 8rem;
+}
+
+.clothing-container img,
+.clipboard-container img,
+.project-firetek {
+  outline: 10px solid #dee2e6;
+  z-index: -1;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  margin-right: 2.4rem;
+}
+
+.b1 {
+  background: -webkit-linear-gradient(0deg, transparent 50%, #339af0 50%);
+  background-size: 400px 80px;
+  border-bottom: 2px solid #fff;
+}
+.b1:hover {
+  background-position: 200px 0;
+}
+a {
+  color: #e9ecef;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.clipboard-header,
+.firetek-header,
+.clothing-header {
+  font-size: 1.8rem;
+  width: 100%;
+}
+.clipboard-header span,
+.firetek-header span,
+.clothing-header span {
+  font-weight: 600;
+}
+
+.firetek-content {
+  margin-right: 2.8rem;
+}
+.clipboard-content,
+.clothing-content {
+  margin-left: 2.8rem;
+}
+
+@media (max-width: 1200px) {
+  .firetek-content,
+  .clipboard-content,
+  .clothing-content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .firetek-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .clipboard-container,
+  .clothing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-clipboard,
+  .project-clothing,
+  .project-firetek {
+    width: 80%;
+    margin-bottom: 1.8rem;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .clipboard-container,
+  .firetek-container,
+  .clothing-container {
+    margin-bottom: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-clipboard,
+  .project-clothing,
+  .project-firetek {
+    width: 95%;
+  }
+}
