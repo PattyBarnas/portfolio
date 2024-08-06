@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4e7a4d4.css",
-    "main.js": "/static/js/main.a63eea3a.js",
-    "static/media/moon-hero.ogv": "/static/media/moon-hero.0dc5965d15cb0effe7aa.ogv",
-    "static/media/moon-hero.mp4": "/static/media/moon-hero.a799871d26a92969be0c.mp4",
-    "static/media/moon-hero.webm": "/static/media/moon-hero.17ffd28f51f028189204.webm",
-    "static/media/moon-mobile.jpg": "/static/media/moon-mobile.08663679b1c62bd0546b.jpg",
+    "main.css": "/static/css/main.8eac0c9d.css",
+    "main.js": "/static/js/main.7a6aa398.js",
+    "static/media/vid.mp4": "/static/media/vid.94c9e5a8649ae0338a49.mp4",
+    "static/media/new-image.jpg": "/static/media/new-image.308b5ad8a474b88c2fe5.jpg",
+    "static/media/Portfolio-shop.png": "/static/media/Portfolio-shop.483f7b8dc10cd2496953.png",
     "static/media/pramod-tiwari-kmus9gTvnTc-unsplash.jpg": "/static/media/pramod-tiwari-kmus9gTvnTc-unsplash.a091c66ccd0e89447444.jpg",
     "static/media/FiretekHVAC.jpg": "/static/media/FiretekHVAC.ee95d51feaeb7f71a67f.jpg",
-    "static/media/image.jpg": "/static/media/image.8e5e3bdc9804448e2399.jpg",
-    "static/media/ClipBoard.jpg": "/static/media/ClipBoard.bbd3f8f6af9dab383670.jpg",
-    "static/media/PatrykBarnas.docx": "/static/media/PatrykBarnas.f9e261ed98b60c996326.docx",
+    "static/media/PB.pdf": "/static/media/PB.a57cf3d8012ccd4b6ef8.pdf",
     "static/media/ClothingInc.jpg": "/static/media/ClothingInc.bd8c368532a3995e12ea.jpg",
     "static/media/phone-men.svg": "/static/media/phone-men.977bf389a4d4dcb865aee84f1ec340ef.svg",
     "index.html": "/index.html",
-    "main.f4e7a4d4.css.map": "/static/css/main.f4e7a4d4.css.map",
-    "main.a63eea3a.js.map": "/static/js/main.a63eea3a.js.map"
+    "main.8eac0c9d.css.map": "/static/css/main.8eac0c9d.css.map",
+    "main.7a6aa398.js.map": "/static/js/main.7a6aa398.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4e7a4d4.css",
-    "static/js/main.a63eea3a.js"
+    "static/css/main.8eac0c9d.css",
+    "static/js/main.7a6aa398.js"
   ]
 }
