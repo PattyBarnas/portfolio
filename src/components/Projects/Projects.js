@@ -1,5 +1,5 @@
 import "./Projects.css";
-import clipboard from "../Images/ClipBoard.jpg";
+import shop from "../Images/Portfolio-shop.png";
 import firetek from "../Images/FiretekHVAC.jpg";
 import clothingInc from "../Images/ClothingInc.jpg";
 
@@ -8,22 +8,19 @@ const Projects = () => {
     <div className="projects">
       <h3 className="projects-heading">Projects</h3>
       <div className="clipboard-container">
-        <img
-          src={clipboard}
-          alt="Clipboard project"
-          className="project-clipboard"
-        />
+        <img src={shop} alt="Clipboard project" className="project-clipboard" />
         <div className="clipboard-content">
           <p className="clipboard-header">
-            <span>ClipBoard</span> - Built using React, Node.js, Express.js, CSS
+            <span>E-commerce store</span> - Built using React, CSS, Node.js,
+            Express.js
           </p>
 
           <div className="btn-container">
             <div className="btn b1">
-              <a href="https://pattybarnas.github.io/ClipBoard/">View</a>
+              <a href="https://github.com/PattyBarnas/My-Shop">View</a>
             </div>
             <div className="btn b1">
-              <a href="https://github.com/PattyBarnas/ClipBoard">GitHub</a>
+              <a href="https://github.com/PattyBarnas/My-Shop">GitHub</a>
             </div>
           </div>
         </div>

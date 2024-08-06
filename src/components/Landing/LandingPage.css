@@ -8,11 +8,16 @@
   letter-spacing: 1.2px;
   z-index: 1;
 }
+/* span{
+  color: 
+} */
 .heading-2 span {
   position: relative;
   color: white !important;
 }
-
+.heading-1 span {
+  color: #ffe066 !important;
+}
 .sketch-highlight:before {
   content: "";
   background-color: #4dabf7;

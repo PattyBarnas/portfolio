@@ -6,9 +6,10 @@ import Modal from "../UIElements/Modal";
 import Backdrop from "../UIElements/Backdrop";
 import emailjs from "@emailjs/browser";
 
-let publicKey = "VfIzT3kTUIDgpiKZe";
-let serviceId = "service_jl02uxc";
-let templateId = "template_s6d6sx2";
+// API Keys need to be updated
+let publicKey = "qm_baMBq4t7rgLwj_";
+let serviceId = "service_5gp0f0g";
+let templateId = "template_kd4fbvn";
 
 const isEmpty = (val) => val.trim() === "";
 const isEmail = (value) =>

@@ -19,7 +19,6 @@ function App() {
 
       <section id="section-about" className="section-about">
         <About />
-        {/* <div id="typewriter"></div> */}
       </section>
       <section id="section-tech" className="section-tech">
         <Icons />

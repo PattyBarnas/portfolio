@@ -21,6 +21,7 @@ const About = () => {
     );
     observer.observe(ref.current);
   }, []);
+
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
     // strings: ["Little bit about me.", "Thank you for visiting :)."],
