@@ -1,0 +1,110 @@
+.swiper {
+  width: 200px;
+  height: 300px;
+}
+.skills {
+  background: linear-gradient(to left, rgb(5, 23, 41), #000 10%);
+  color: #fff;
+  padding-bottom: 7rem;
+}
+.skills ion-icon,
+.icon,
+svg {
+  display: inline-block;
+  width: 4.2rem;
+  height: 4.2rem;
+  border: 2px solid #fff;
+  border-radius: 14px;
+  padding: 3.2rem;
+  transition: all 500ms ease;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3.8rem;
+}
+
+.icons p {
+  font-size: 1.8rem;
+}
+
+/* COLOR ION ICON */
+
+.react ion-icon {
+  color: #1098ad;
+}
+.javascript ion-icon {
+  color: #ffd43b;
+}
+.css ion-icon {
+  color: #339af0;
+}
+
+.node ion-icon {
+  color: #51cf66;
+}
+.wordpress ion-icon {
+  color: #0b7285;
+}
+
+/* ////////////////////// */
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  width: 100%;
+}
+.skills {
+  overflow: hidden;
+}
+
+.skill-row-animate {
+  opacity: 1;
+  animation-name: moveInRight;
+  animation-duration: 1.4s;
+}
+
+.skills-heading {
+  display: block;
+  position: relative;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.express svg {
+  stroke: white !important;
+}
+@media (max-width: 1650px) {
+  .icons-col {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+  }
+
+  .icons {
+    margin-left: 0;
+  }
+  .skills {
+    padding: 3.8rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    background: linear-gradient(to left, rgb(5, 23, 41), #000 0%);
+  }
+  .icon-container {
+    gap: 1.4rem;
+  }
+}
