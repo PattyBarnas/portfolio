@@ -1,15 +1,38 @@
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(123% + 1.3px);
+  height: 90px;
+}
+
+.curve .shape-fill {
+  fill: #e9ecef;
+}
+/* S curve */
+
 .swiper {
   width: 200px;
   height: 300px;
 }
 .skills {
-  background: linear-gradient(to left, rgb(5, 23, 41), #000 10%);
+  position: relative;
+  background: linear-gradient(to left, rgb(5, 23, 41), #000 70%);
   color: #fff;
-  padding-bottom: 7rem;
+  padding: 7rem;
 }
 .skills ion-icon,
 .icon,
-svg {
+.logo-container svg {
   display: inline-block;
   width: 4.2rem;
   height: 4.2rem;
@@ -73,7 +96,7 @@ svg {
 
 .skills-heading {
   display: block;
-  position: relative;
+  /* position: relative; */
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 500;
@@ -85,6 +108,7 @@ svg {
 .express svg {
   stroke: white !important;
 }
+
 @media (max-width: 1650px) {
   .icons-col {
     display: flex;
