@@ -4,9 +4,9 @@ import About from "./components/About/About";
 import ContactForm from "./components/Contact/ContactForm";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
-import Icons from "./components/About/Icons";
 import BackgroundVideo from "./components/Landing/BackgroundVideo";
 import LandingPage from "./components/Landing/LandingPage";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
@@ -19,10 +19,9 @@ function App() {
 
       <section id="section-about" className="section-about">
         <About />
+        <Skills />
       </section>
-      <section id="section-tech" className="section-tech">
-        <Icons />
-      </section>
+
       <section id="section-projects" className="section-projects">
         <Projects />
       </section>

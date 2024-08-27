@@ -1,19 +1,45 @@
+.curves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curves svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 123px;
+}
+
+.curves .shape-fill {
+  fill: black;
+}
+
+/*  */
+
 .projects {
-  width: 90%;
+  position: relative;
+  width: 100%;
   margin: 0 auto;
   padding: 5.2rem 0;
   padding-bottom: 0.2rem;
 }
 
 #section-projects {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
-    url("../Images/pramod-tiwari-kmus9gTvnTc-unsplash.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
+    url("../Images/pramod-tiwari-kmus9gTvnTc-unsplash.jpg"); */
+  background-color: #222;
   background-position: top;
   color: white;
   background: linear-gradient(#000);
   z-index: 0;
 }
 .projects-heading {
+  padding: 4.8rem;
   display: block;
   position: relative;
   font-size: 3rem;
