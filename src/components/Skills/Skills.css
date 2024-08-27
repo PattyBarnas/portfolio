@@ -1,6 +1,5 @@
 .logos {
   position: relative;
-  font-size: 1.8rem;
 
   background-color: #e9ecef;
   overflow: hidden;
@@ -32,7 +31,13 @@
   animation: 20s scroll infinite linear;
 }
 .scroll-slide span {
+  font-size: 1.4rem;
   margin: 0 30px;
+  letter-spacing: 0.2em;
+  background: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 @keyframes scroll {
