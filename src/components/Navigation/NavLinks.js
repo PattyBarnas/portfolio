@@ -7,9 +7,9 @@ const NavLinks = () => {
       <li>
         <a href="#section-about">About</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#section-tech">Skills</a>
-      </li>
+      </li> */}
       <li>
         <a href="#section-projects">Projects</a>
       </li>

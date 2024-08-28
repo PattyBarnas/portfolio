@@ -13,7 +13,9 @@ function skills() {
         <span>Node.js</span>
         <span>Express.js</span>
         <span>MySQL</span>
+        <span>MongoDB</span>
         <span>Git</span>
+        <span>Unit Testing</span>
         <span>Data structures</span>
       </div>
       <div className="scroll-slide">
@@ -26,7 +28,9 @@ function skills() {
         <span>Node.js</span>
         <span>Express.js</span>
         <span>MySQL</span>
+        <span>MongoDB</span>
         <span>Git</span>
+        <span>Unit Testing</span>
         <span>Data structures</span>
       </div>
     </div>
