@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.6da1353c.css",
-    "main.js": "/static/js/main.94801671.js",
+    "main.js": "/static/js/main.3a4540ba.js",
     "static/media/vid.mp4": "/static/media/vid.94c9e5a8649ae0338a49.mp4",
+    "static/media/FiretekHVAC.png": "/static/media/FiretekHVAC.d2101c0f20c211fdb338.png",
     "static/media/new-image.jpg": "/static/media/new-image.308b5ad8a474b88c2fe5.jpg",
     "static/media/Portfolio-shop.png": "/static/media/Portfolio-shop.483f7b8dc10cd2496953.png",
-    "static/media/FiretekHVAC.jpg": "/static/media/FiretekHVAC.ee95d51feaeb7f71a67f.jpg",
     "static/media/PB.pdf": "/static/media/PB.f378fadcdb1e5ab804ad.pdf",
     "static/media/ClothingInc.jpg": "/static/media/ClothingInc.bd8c368532a3995e12ea.jpg",
     "static/media/phone-men.svg": "/static/media/phone-men.977bf389a4d4dcb865aee84f1ec340ef.svg",
     "index.html": "/index.html",
     "main.6da1353c.css.map": "/static/css/main.6da1353c.css.map",
-    "main.94801671.js.map": "/static/js/main.94801671.js.map"
+    "main.3a4540ba.js.map": "/static/js/main.3a4540ba.js.map"
   },
   "entrypoints": [
     "static/css/main.6da1353c.css",
-    "static/js/main.94801671.js"
+    "static/js/main.3a4540ba.js"
   ]
 }
