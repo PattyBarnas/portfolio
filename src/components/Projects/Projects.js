@@ -1,6 +1,6 @@
 import "./Projects.css";
 import shop from "../Images/Portfolio-shop.png";
-import firetek from "../Images/FiretekHVAC.jpg";
+import firetek from "../Images/FiretekHVAC.png";
 import clothingInc from "../Images/ClothingInc.jpg";
 
 const Projects = () => {
