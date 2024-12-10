@@ -1,6 +1,6 @@
 import "./About.css";
 import React, { useState, useRef, useEffect } from "react";
-import imageOfMe from "../Images/new-image.jpg";
+import imageOfMe from "../Images/me.jpg";
 // import resume from "../Resume/PatrykBarnas.docx";
 import resume from "../Resume/PB.pdf";
 import Typewriter from "typewriter-effect/dist/core";
