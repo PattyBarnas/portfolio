@@ -63,14 +63,12 @@
 }
 
 .about-me img {
-  width: 45%;
-  height: 52rem;
+  width: 38%;
+  height: 42rem;
   border-radius: 14px;
   box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 6.2rem;
   margin-left: 4rem;
   align-self: center;
-
   padding: 0.8rem;
 }
 #about-me-p {
