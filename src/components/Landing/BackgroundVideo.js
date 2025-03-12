@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./BackgroundVideo.css";
 
 import vid from "../Images/vid.mp4";

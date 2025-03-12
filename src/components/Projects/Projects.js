@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./Projects.css";
 import shop from "../Images/Portfolio-shop.png";
 import firetek from "../Images/FiretekHVAC.png";
