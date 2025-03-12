@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff5b7320.css",
-    "main.js": "/static/js/main.a70ebc11.js",
-    "static/media/vid.mp4": "/static/media/vid.196e6c0d580bd61a8567.mp4",
-    "static/media/FiretekHVAC.png": "/static/media/FiretekHVAC.d2101c0f20c211fdb338.png",
-    "static/media/Portfolio-shop.png": "/static/media/Portfolio-shop.483f7b8dc10cd2496953.png",
-    "static/media/me.jpg": "/static/media/me.056f2eb21d1e5edbd201.jpg",
-    "static/media/PB.pdf": "/static/media/PB.f378fadcdb1e5ab804ad.pdf",
-    "static/media/ClothingInc.jpg": "/static/media/ClothingInc.bd8c368532a3995e12ea.jpg",
-    "static/media/phone-men.svg": "/static/media/phone-men.977bf389a4d4dcb865aee84f1ec340ef.svg",
+    "main.css": "/static/css/main.3ed68377.chunk.css",
+    "main.js": "/static/js/main.c18323eb.chunk.js",
+    "main.js.map": "/static/js/main.c18323eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.351e9c47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.351e9c47.js.map",
+    "static/js/2.484a4363.chunk.js": "/static/js/2.484a4363.chunk.js",
+    "static/js/2.484a4363.chunk.js.map": "/static/js/2.484a4363.chunk.js.map",
     "index.html": "/index.html",
-    "main.ff5b7320.css.map": "/static/css/main.ff5b7320.css.map",
-    "main.a70ebc11.js.map": "/static/js/main.a70ebc11.js.map"
+    "precache-manifest.ee5e0aa555982dc66b74a98031db3294.js": "/precache-manifest.ee5e0aa555982dc66b74a98031db3294.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3ed68377.chunk.css.map": "/static/css/main.3ed68377.chunk.css.map",
+    "static/js/2.484a4363.chunk.js.LICENSE.txt": "/static/js/2.484a4363.chunk.js.LICENSE.txt",
+    "static/media/ClothingInc.jpg": "/static/media/ClothingInc.d95f2cf9.jpg",
+    "static/media/FiretekHVAC.png": "/static/media/FiretekHVAC.880b0b00.png",
+    "static/media/PB.pdf": "/static/media/PB.e6eef709.pdf",
+    "static/media/Portfolio-shop.png": "/static/media/Portfolio-shop.d95aa07a.png",
+    "static/media/me.jpg": "/static/media/me.4834bcc0.jpg",
+    "static/media/phone-men.svg": "/static/media/phone-men.9434ffa9.svg",
+    "static/media/vid.mp4": "/static/media/vid.5ba5c0ec.mp4"
   },
   "entrypoints": [
-    "static/css/main.ff5b7320.css",
-    "static/js/main.a70ebc11.js"
+    "static/js/runtime-main.351e9c47.js",
+    "static/js/2.484a4363.chunk.js",
+    "static/css/main.3ed68377.chunk.css",
+    "static/js/main.c18323eb.chunk.js"
   ]
 }
