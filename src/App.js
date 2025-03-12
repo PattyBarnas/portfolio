@@ -7,9 +7,6 @@ import Footer from "./components/Footer/Footer";
 import BackgroundVideo from "./components/Landing/BackgroundVideo";
 import LandingPage from "./components/Landing/LandingPage";
 import Skills from "./components/Skills/Skills";
-import ReactGA from "react-ga";
-ReactGA.initialize("UA-000000-01");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
