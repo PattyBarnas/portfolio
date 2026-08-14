@@ -8,13 +8,13 @@ import clothingInc from "../Images/ClothingInc.jpg";
 const Projects = () => {
   return (
     <div className="projects">
-      <h3 className="projects-heading">Projects</h3>
+      <h2 className="projects-heading">Projects</h2>
       <div className="clipboard-container">
         <img src={shop} alt="Clipboard project" className="project-clipboard" />
         <div className="clipboard-content">
           <p className="clipboard-header">
-            <span>E-commerce store</span> - Built using React, CSS, Node.js,
-            Express.js
+            <span>E-commerce store</span> - All custom code written in React.js,
+            CSS, Node.js, Express.js, MongoDB, Mongoose
           </p>
 
           <div className="btn-container">

@@ -10,7 +10,8 @@ const LandingPage = (props) => {
         </h1>
 
         <p className="heading-2">
-          I'm a <span className="sketch-highlight ">full stack developer.</span>
+          I'm a <span className="sketch-highlight ">Software Engineer.</span>{" "}
+          with <span className="sketch-highlight ">SEO & SEM</span> experience.
         </p>
         <a
           href="#section-projects"

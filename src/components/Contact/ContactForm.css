@@ -91,6 +91,10 @@ form label {
   width: 12.5%;
   margin-bottom: 4.2rem;
 }
+.questions-msg {
+  color: #cccccc;
+  font-size: 1.8rem;
+}
 
 @media (max-width: 768px) {
   form {

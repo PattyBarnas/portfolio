@@ -53,7 +53,7 @@ const ContactForm = () => {
       },
       function (error) {
         console.log("FAILED...", error);
-      }
+      },
     );
     nameRef.current.value =
       emailRef.current.value =
@@ -81,14 +81,15 @@ const ContactForm = () => {
     <div className="back">
       {formSubmitted && <Backdrop onClose={closeModalHandler} />}
       {formSubmitted && <Modal onClose={closeModalHandler} />}
-      <h4 className="contact-heading">Send me a message!</h4>
-      <p className="questions-heading">
-        Have any questions or proposals? just want to say hello? Please do 😄.
-      </p>
 
       <form onSubmit={formSubmitHandler} ref={form}>
+        <h2 className="contact-heading">Get in Touch.</h2>
         <img src={messageMe} className="phone-img" alt="images of a phone" />
 
+        <p className="questions-msg">
+          Have a question, a project in mind, or just want to say hello? Feel
+          free to reach out.
+        </p>
         <div className="input-container">
           <label htmlFor="name">Name</label>
           <input

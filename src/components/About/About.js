@@ -1,6 +1,6 @@
 import "./About.css";
 import React, { useState, useRef, useEffect } from "react";
-import imageOfMe from "../Images/me.jpg";
+import imageOfMe from "../Images/patryk-barnas-portfolio.webp";
 // import resume from "../Resume/PatrykBarnas.docx";
 import resume from "../Resume/PB.pdf";
 import Typewriter from "typewriter-effect/dist/core";
@@ -16,14 +16,14 @@ const About = () => {
         const entry = entries[0];
         entry.isIntersecting && setVisible(true);
       },
-      { threshold: 0.4 }
+      { threshold: 0.4 },
     );
     observer.observe(ref.current);
   }, []);
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: ["Little bit about myself.", "Passionate learner"],
+    strings: ["Little bit about myself.", "Software Engineer"],
     autoStart: true,
     loop: true,
     pauseFor: 3000,
