@@ -84,12 +84,12 @@ const ContactForm = () => {
 
       <form onSubmit={formSubmitHandler} ref={form}>
         <h2 className="contact-heading">Get in Touch.</h2>
-        <img src={messageMe} className="phone-img" alt="images of a phone" />
-
         <p className="questions-msg">
           Have a question, a project in mind, or just want to say hello? Feel
           free to reach out.
         </p>
+        <img src={messageMe} className="phone-img" alt="images of a phone" />
+
         <div className="input-container">
           <label htmlFor="name">Name</label>
           <input

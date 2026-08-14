@@ -6,12 +6,13 @@ const LandingPage = (props) => {
     <div className="landing-page">
       <div className="landing-container">
         <h1 className="heading-1">
-          Hello, I'm <span>Patryk.</span>
+          Hi, I’m <span>Patryk.</span> I’m a Software Engineer.
         </h1>
 
-        <p className="heading-2">
-          I'm a <span className="sketch-highlight ">Software Engineer.</span>{" "}
-          with <span className="sketch-highlight ">SEO & SEM</span> experience.
+        <p className="header-text">
+          I build scalable full-stack software and pair it with hands-on{" "}
+          <span className="sketch-highlight ">SEO & SEM</span> experience -
+          turning technical skill into measurable business growth.
         </p>
         <a
           href="#section-projects"

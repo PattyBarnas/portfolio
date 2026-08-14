@@ -89,11 +89,12 @@ form label {
 
 .phone-img {
   width: 12.5%;
-  margin-bottom: 4.2rem;
+  margin-bottom: 5.2rem;
 }
 .questions-msg {
   color: #cccccc;
   font-size: 1.8rem;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 768px) {

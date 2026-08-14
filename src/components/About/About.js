@@ -23,7 +23,7 @@ const About = () => {
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: ["Little bit about myself.", "Software Engineer"],
+    strings: ["About Me.", "Full-stack developer with a technical SEO edge"],
     autoStart: true,
     loop: true,
     pauseFor: 3000,
@@ -42,7 +42,7 @@ const About = () => {
             visible ? "about-me-content-animate" : ""
           }`}
         >
-          <p id="about-me-p">Meet Patryk</p>
+          <h2 id="about-me-heading">Meet Patryk</h2>
           <p className="about-me-description">
             Hey there 👋, thank you for visiting my page. My name is Patryk and
             I enjoy solving problems writing code. I completed a Bachelor of
@@ -53,6 +53,16 @@ const About = () => {
             to solve complex problems. It inspires me how coding can reach so
             many people, the possibilities feel endless!
           </p>
+          <ul className="about-highlights">
+            <li> B.S. in Computer Science - Governors State University</li>
+            <li>
+              Full-stack apps built with React, Next.js & Node.js, MySQL, Java,
+              Spring Boot
+            </li>
+            <li> Certified Salesforce Admin & Platform Developer I</li>
+            <li> Grew organic traffic 225% through data-driven SEO</li>
+            <li> Cut ad costs 40% while boosting ROAS 300%+</li>
+          </ul>
 
           <div className="btn b1 about-btn">
             <a href={resume} download="Resume">

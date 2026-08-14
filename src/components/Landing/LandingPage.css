@@ -11,10 +11,7 @@
 /* span{
   color: 
 } */
-.heading-2 span {
-  position: relative;
-  color: white !important;
-}
+
 .heading-1 span {
   color: #ffe066 !important;
 }
@@ -153,10 +150,18 @@
   animation-name: moveInLeft;
   animation-duration: 1.4s;
 }
-.heading-2 {
+.header-text {
+  font-size: 2rem !important;
+  width: 45%;
+  line-height: 26px !important;
+  letter-spacing: 1.2px;
   margin-bottom: 5rem;
   animation-name: moveInRight;
   animation-duration: 1.4s;
+}
+.header-text span {
+  position: relative;
+  color: white !important;
 }
 
 @keyframes moveInLeft {
