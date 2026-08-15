@@ -63,14 +63,14 @@
 }
 
 .about-me img {
-  width: 500px;
+  width: 100%;
   height: 100%;
   border-radius: 14px;
   box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.2);
-  margin-left: 4rem;
   align-self: center;
   padding: 0.6rem;
 }
+
 #about-me-heading {
   font-size: 3.8rem;
   color: #444;
@@ -110,10 +110,10 @@ div .about-btn {
 @media (max-width: 1500px) {
   .about {
     grid-template-columns: 1fr;
-    width: 92%;
+    width: 90%;
   }
-  .about-me img {
-    display: none;
+  .about-me {
+    /* display: none; */
   }
   .about-heading {
     height: 50%;
@@ -130,6 +130,34 @@ div .about-btn {
 }
 
 @media (max-width: 768px) {
+  .about {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .about-me {
+    width: 100%;
+    align-items: center;
+  }
+
+  .about-me img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-left: 0;
+    padding: 0.6rem;
+    box-sizing: border-box;
+  }
+
+  .about-me-content {
+    width: 100%;
+    height: auto;
+    grid-column: 1;
+  }
+
+  .about-heading {
+    grid-column: 1;
+  }
   .about-me-description {
     grid-column: 1/-1;
   }

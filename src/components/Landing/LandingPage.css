@@ -215,8 +215,12 @@
   html {
     font-size: 52.5%;
   }
+  .header-text {
+    width: 80%;
+  }
   .landing-page h1 {
     line-height: 1.1;
+    margin-bottom: 6rem;
   }
   .landing-page p {
     line-height: 1.4;
