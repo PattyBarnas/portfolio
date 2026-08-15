@@ -18,10 +18,11 @@ const MainNavigation = () => {
   return (
     <React.Fragment>
       {drawerIsOpen && <Backdrop onClose={closeDrawerHandler} />}
+
       <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
-        <nav className="main-navigation__drawer-nav">
-          <NavLinks></NavLinks>
-        </nav>
+        {/* <nav className="main-navigation__drawer-nav"> */}
+        <NavLinks></NavLinks>
+        {/* </nav> */}
       </SideDrawer>
       <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
         <span className="phone-menu-btn" />

@@ -13,6 +13,9 @@
 
   /* z-index: 2; */
 }
+.navigation-logo {
+  display: none;
+}
 
 .nav-links li a:link,
 .nav-links li a:visited {
@@ -28,6 +31,11 @@
 }
 
 @media (max-width: 768px) {
+  .navigation-logo {
+    display: block;
+    font-size: 4.8rem;
+    color: #fff9db;
+  }
   .nav-links {
     display: flex;
     flex-direction: column;

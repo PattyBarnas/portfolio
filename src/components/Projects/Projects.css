@@ -1,31 +1,8 @@
-.curves {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.curves svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 123px;
-}
-
-.curves .shape-fill {
-  fill: black;
-}
-
-/*  */
-
 .projects {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  padding: 5.2rem 0;
+  padding: 3.2rem 0;
   padding-bottom: 0.2rem;
 }
 
@@ -51,6 +28,11 @@
   text-align: center;
   margin-bottom: 2.8rem;
 }
+
+.project-subheading {
+  font-size: 2.3rem;
+  margin-bottom: 0;
+}
 .project-clipboard,
 .project-firetek,
 .project-clothing {
@@ -71,6 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  background-color: #212529;
   margin-bottom: 18rem;
 }
 
@@ -113,13 +96,14 @@ a {
   text-decoration: none;
 }
 
-.clipboard-header,
+.clipboard-description,
 .firetek-header,
 .clothing-header {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  color: #dee2e6;
   width: 100%;
 }
-.clipboard-header span,
+.clipboard-description span,
 .firetek-header span,
 .clothing-header span {
   font-weight: 600;

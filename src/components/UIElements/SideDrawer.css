@@ -1,7 +1,7 @@
 .side-drawer {
   position: fixed;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   left: 0;
   top: 0;
   z-index: 100;

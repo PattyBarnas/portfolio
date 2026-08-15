@@ -1,34 +1,11 @@
-.curves {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.curves svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 123px;
-}
-
-.curves .shape-fill {
-  fill: black;
-}
-
-/* Curves */
 .logos {
   position: relative;
   background-color: #e9ecef;
   overflow: hidden;
   width: 90%;
   height: 50%;
-  padding: 25px 0;
+  padding: 5rem 0;
   white-space: nowrap;
-  margin: 0 auto;
 }
 
 .logos::before,
@@ -55,7 +32,7 @@
 .scroll-slide span {
   text-transform: uppercase;
   font-size: 1.2rem;
-  margin: 0 30px;
+  margin: 0 10px;
   letter-spacing: 0.3em;
   background: #212529;
   color: #fff;
