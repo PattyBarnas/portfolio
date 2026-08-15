@@ -42,25 +42,30 @@
 
 /* ------------------------------- */
 .project-subheading {
-  font-size: 2.3rem;
+  font-size: 2.8rem;
   font-weight: 300;
   color: #fb8989;
   margin-bottom: auto;
 }
 
 .project-container {
-  display: flex;
-  justify-content: center;
-  /* align-items:; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gri */
   background-color: #111;
   margin: 14rem auto;
   width: 90%;
   height: 650px;
   border-radius: 12px;
 }
+
+.project-image {
+  width: 100%;
+}
 .warners-img {
   border-radius: 0 12px 12px 0 !important;
 }
+
 .project-container img,
 .warners-img {
   z-index: -1;
@@ -99,7 +104,7 @@ a {
 }
 
 .project-description {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: 200;
   letter-spacing: 0.6px;
   color: #e9ecef;
@@ -108,54 +113,30 @@ a {
 }
 
 .project-content {
-  width: 1000px;
   padding: 4.2rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 @media (max-width: 1200px) {
-  .project-content {
-    margin: 0 auto;
-    text-align: center;
+  .main-container {
+    padding: 2rem;
   }
-  .warners-container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-  .ecom-container,
-  .clothing-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .project-ecom,
-  .project-clothing,
-  .warners-img {
-    width: 80%;
-    margin-bottom: 1.8rem;
+  .project-container {
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
   }
 
-  .btn-container {
-    display: flex;
-    justify-content: center;
+  .projects-header p {
+    width: 65%;
   }
-  .ecom-container,
-  .warners-container,
-  .clothing-container {
-    margin-bottom: 11rem;
+  .project-content {
+    text-align: center;
   }
 }
 
 @media (max-width: 768px) {
-  .project-ecom,
-  .project-clothing,
-  .warners-img {
-    width: 95%;
-  }
 }
