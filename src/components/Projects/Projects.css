@@ -20,59 +20,55 @@
   background: linear-gradient(#000);
   z-index: 0;
 }
-.projects-heading {
-  padding: 3.8rem;
-  display: block;
-  position: relative;
+
+.projects-header {
+  width: 90%;
+  margin: 0 auto;
+}
+.projects-header h2 {
   font-size: 4.6rem;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1.8px;
-  margin: 0;
-  grid-column: 1/-1;
-  text-align: center;
-  margin-bottom: 2.8rem;
-}
-
-.project-subheading {
-  font-size: 2.3rem;
+  text-align: left;
   margin-bottom: 0;
 }
 
-.project-clipboard,
-.project-warners,
-.project-clothing {
-  height: 40%;
-  width: 40%;
-  z-index: 1 !important;
-  transition: all 0.5s;
-}
-.project-clipboard:hover,
-.project-warners:hover,
-.project-clothing:hover {
-  transform: translateY(-5%);
+.projects-header p {
+  width: 35%;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 
-.clipboard-container,
-.warners-container,
-.clothing-container {
+/* ------------------------------- */
+.project-subheading {
+  font-size: 2.3rem;
+  font-weight: 300;
+  color: #fb8989;
+  margin-bottom: auto;
+}
+
+.project-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  background-color: #262626;
-  margin-bottom: 18rem;
+  /* align-items:; */
+  background-color: #111;
+  margin: 14rem auto;
+  width: 90%;
+  height: 650px;
+  border-radius: 12px;
 }
-
-.clothing-container {
-  margin-bottom: 8rem;
+.warners-img {
+  border-radius: 0 12px 12px 0 !important;
 }
-
-.clothing-container img,
-.clipboard-container img,
-.project-warners {
-  outline: 10px solid #dee2e6;
+.project-container img,
+.warners-img {
   z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px 0 0 12px;
 }
+
 .btn-container {
   display: flex;
   align-items: center;
@@ -102,31 +98,26 @@ a {
   text-decoration: none;
 }
 
-.clipboard-description,
-.warners-header,
-.clothing-header {
-  font-size: 1.6rem;
+.project-description {
+  font-size: 2.6rem;
+  font-weight: 200;
+  letter-spacing: 0.6px;
   color: #e9ecef;
-  width: 100%;
-}
-.clipboard-description span,
-.warners-header span,
-.clothing-header span {
-  font-weight: 600;
+  width: 90%;
+  margin-bottom: auto;
 }
 
-.warners-content {
-  margin-right: 2.8rem;
-}
-.clipboard-content,
-.clothing-content {
-  margin-left: 2.8rem;
+.project-content {
+  width: 1000px;
+  padding: 4.2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 @media (max-width: 1200px) {
-  .warners-content,
-  .clipboard-content,
-  .clothing-content {
+  .project-content {
     margin: 0 auto;
     text-align: center;
   }
@@ -136,16 +127,16 @@ a {
     justify-content: center;
     align-items: center;
   }
-  .clipboard-container,
+  .ecom-container,
   .clothing-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .project-clipboard,
+  .project-ecom,
   .project-clothing,
-  .project-warners {
+  .warners-img {
     width: 80%;
     margin-bottom: 1.8rem;
   }
@@ -154,7 +145,7 @@ a {
     display: flex;
     justify-content: center;
   }
-  .clipboard-container,
+  .ecom-container,
   .warners-container,
   .clothing-container {
     margin-bottom: 11rem;
@@ -162,9 +153,9 @@ a {
 }
 
 @media (max-width: 768px) {
-  .project-clipboard,
+  .project-ecom,
   .project-clothing,
-  .project-warners {
+  .warners-img {
     width: 95%;
   }
 }

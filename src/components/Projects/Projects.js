@@ -7,14 +7,27 @@ import internshipImg from "../Images/internship-project.webp";
 
 const Projects = () => {
   return (
-    <div className="projects">
-      <h2 className="projects-heading">Projects</h2>
-      <div className="clipboard-container">
-        <img src={shop} alt="Clipboard project" className="project-clipboard" />
-        <div className="clipboard-content">
+    <section className="projects">
+      <div className="projects-header">
+        <h2>Projects</h2>
+        <p>
+          I love to create custom web experiences that are intuitive, engaging,
+          and built around the needs of users. I prioritize performance, UX,
+          clean code, accessibility, and scalability to make sure every project.
+        </p>
+      </div>
+
+      <div className="project-container">
+        <div>
+          <img src={shop} alt="E-commerce project" className="project-ecom" />
+        </div>
+        <div className="project-content">
           <h3 className="project-subheading">E-commerce Store</h3>
-          <p className="clipboard-description">
-            - React.js, CSS, Node.js, Express.js, MongoDB, Mongoose
+
+          <p className="project-description">
+            A full-stack e-commerce application built with React and Node.js,
+            featuring a secure REST API, MongoDB database, user authentication,
+            shopping cart, Stripe payments, and responsive UI.
           </p>
           <ul className="project-features">
             <li>Authentication</li>
@@ -36,11 +49,13 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="warners-container">
-        <div className="warners-content">
+      <div className="project-container">
+        <div className="project-content">
           <h3 className="project-subheading">Warner's Decking</h3>
-          <p className="warners-header">
-            - Fully Responsive, built using React, React Router, Node.js, CSS
+          <p className="project-description">
+            A fully responsive decking website built with React and Node.js,
+            featuring smooth navigation, reusable components, and a clean,
+            modern design optimized for desktop and mobile users
           </p>
 
           <div className="btn-container">
@@ -52,22 +67,29 @@ const Projects = () => {
             {/* </div> */}
           </div>
         </div>
-        <img
-          src={warnersImg}
-          alt="Clipboard project"
-          className="project-warners"
-        />
+        <div>
+          <img
+            src={warnersImg}
+            alt="Clipboard project"
+            className="warners-img"
+          />
+        </div>
       </div>
-      <div className="clothing-container">
-        <img
-          src={internshipImg}
-          alt="Clothing Store project"
-          className="project-clothing"
-        />
-        <div className="clothing-content">
-          <h3 className="project-subheading">Clothing Inc</h3>
-          <p className="clothing-header">
-            Built using React.js, Context Hook, Integrated with Stripe.js, CSS.
+
+      <div className="project-container">
+        <div>
+          <img
+            src={internshipImg}
+            alt="Clothing Store project"
+            className="project-clothing"
+          />
+        </div>
+        <div className="project-content">
+          <h3 className="project-subheading">The Commons XR</h3>
+          <p className="project-description">
+            An immersive XR experience built to showcase interactive 3D
+            environments, combining modern web technologies with engaging
+            visuals and intuitive user interactions.
           </p>
 
           <div className="btn-container">
@@ -80,7 +102,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
