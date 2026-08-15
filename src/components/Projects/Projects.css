@@ -6,17 +6,22 @@
   padding-bottom: 0.2rem;
 }
 
+.project-features {
+  font-size: 1.3rem;
+  letter-spacing: 2.5px;
+}
+.project-features li {
+  margin-bottom: 0.6rem;
+}
+
 #section-projects {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
-    url("../Images/pramod-tiwari-kmus9gTvnTc-unsplash.jpg"); */
-  background-color: #222;
   background-position: top;
   color: white;
   background: linear-gradient(#000);
   z-index: 0;
 }
 .projects-heading {
-  padding: 4.8rem;
+  padding: 3.8rem;
   display: block;
   position: relative;
   font-size: 4.6rem;
@@ -33,8 +38,9 @@
   font-size: 2.3rem;
   margin-bottom: 0;
 }
+
 .project-clipboard,
-.project-firetek,
+.project-warners,
 .project-clothing {
   height: 40%;
   width: 40%;
@@ -42,18 +48,18 @@
   transition: all 0.5s;
 }
 .project-clipboard:hover,
-.project-firetek:hover,
+.project-warners:hover,
 .project-clothing:hover {
   transform: translateY(-5%);
 }
 
 .clipboard-container,
-.firetek-container,
+.warners-container,
 .clothing-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: #212529;
+  background-color: #262626;
   margin-bottom: 18rem;
 }
 
@@ -63,7 +69,7 @@
 
 .clothing-container img,
 .clipboard-container img,
-.project-firetek {
+.project-warners {
   outline: 10px solid #dee2e6;
   z-index: -1;
 }
@@ -97,19 +103,19 @@ a {
 }
 
 .clipboard-description,
-.firetek-header,
+.warners-header,
 .clothing-header {
   font-size: 1.6rem;
-  color: #dee2e6;
+  color: #e9ecef;
   width: 100%;
 }
 .clipboard-description span,
-.firetek-header span,
+.warners-header span,
 .clothing-header span {
   font-weight: 600;
 }
 
-.firetek-content {
+.warners-content {
   margin-right: 2.8rem;
 }
 .clipboard-content,
@@ -118,13 +124,13 @@ a {
 }
 
 @media (max-width: 1200px) {
-  .firetek-content,
+  .warners-content,
   .clipboard-content,
   .clothing-content {
     margin: 0 auto;
     text-align: center;
   }
-  .firetek-container {
+  .warners-container {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -139,7 +145,7 @@ a {
   }
   .project-clipboard,
   .project-clothing,
-  .project-firetek {
+  .project-warners {
     width: 80%;
     margin-bottom: 1.8rem;
   }
@@ -149,7 +155,7 @@ a {
     justify-content: center;
   }
   .clipboard-container,
-  .firetek-container,
+  .warners-container,
   .clothing-container {
     margin-bottom: 11rem;
   }
@@ -158,7 +164,7 @@ a {
 @media (max-width: 768px) {
   .project-clipboard,
   .project-clothing,
-  .project-firetek {
+  .project-warners {
     width: 95%;
   }
 }
