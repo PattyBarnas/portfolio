@@ -59,6 +59,7 @@ body {
   margin: 0;
   padding: 0;
   color: #444;
+  /* min-width: 320px; */
 }
 
 code {

@@ -1,9 +1,30 @@
 import React from "react";
-
 import "./Projects.css";
 import shop from "../Images/Portfolio-shop.png";
 import warnersImg from "../Images/project-work.webp";
 import internshipImg from "../Images/internship-project.webp";
+
+import { motion } from "motion/react";
+
+const cardVariants = {
+  offscreen: {
+    y: 300,
+    opacity: 0,
+    scale: 0.4,
+    rotate: -8,
+  },
+  onscreen: {
+    y: 0,
+    opacity: 1,
+    scale: 1,
+    rotate: 0,
+    transition: {
+      type: "spring",
+      bounce: 0.4,
+      duration: 0.5,
+    },
+  },
+};
 
 const Projects = () => {
   return (
@@ -18,7 +39,13 @@ const Projects = () => {
       </div>
 
       <div className="main-container">
-        <div className="project-container">
+        <motion.div
+          className="project-container"
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={cardVariants}
+          viewport={{ once: true, margin: "-100px" }}
+        >
           <div className="project-image">
             <img src={shop} alt="E-commerce project" className="project-ecom" />
           </div>
@@ -48,9 +75,15 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="project-container">
+        <motion.div
+          className="project-container"
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={cardVariants}
+          viewport={{ once: true, margin: "-100px" }}
+        >
           <div className="project-content">
             <h3 className="project-subheading">Warner's Decking</h3>
             <p className="project-description">
@@ -75,9 +108,15 @@ const Projects = () => {
               className="warners-img"
             />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="project-container">
+        <motion.div
+          className="project-container"
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, margin: "-100px" }}
+          variants={cardVariants}
+        >
           <div className="project-image">
             <img
               src={internshipImg}
@@ -102,7 +141,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
