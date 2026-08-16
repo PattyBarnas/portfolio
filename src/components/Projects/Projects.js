@@ -32,8 +32,7 @@ const Projects = () => {
       <div className="projects-header">
         <h2>Projects</h2>
         <p>
-          I love to create custom web experiences that are intuitive, engaging,
-          and built around the needs of users. I prioritize performance, UX,
+          I love to create custom web experiences. I prioritize performance, UX,
           clean code, accessibility, and scalability to make sure every project.
         </p>
       </div>
@@ -44,7 +43,7 @@ const Projects = () => {
           initial="offscreen"
           whileInView="onscreen"
           variants={cardVariants}
-          viewport={{ once: true, margin: "400px" }}
+          viewport={{ once: true, margin: "0px 0px 300px 0px" }}
         >
           <div className="project-image">
             <img src={shop} alt="E-commerce project" className="project-ecom" />
@@ -82,7 +81,7 @@ const Projects = () => {
           initial="offscreen"
           whileInView="onscreen"
           variants={cardVariants}
-          viewport={{ once: true, margin: "400px" }}
+          viewport={{ once: true, margin: "0px 0px 300px 0px" }}
         >
           <div className="project-content">
             <h3 className="project-subheading">Warner's Decking</h3>
@@ -114,7 +113,7 @@ const Projects = () => {
           className="project-container"
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, margin: "300px" }}
+          viewport={{ once: true, margin: "0px 0px 300px 0px" }}
           variants={cardVariants}
         >
           <div className="project-image">

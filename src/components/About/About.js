@@ -44,20 +44,31 @@ const About = () => {
         >
           <h2 id="about-me-heading">Meet Patryk</h2>
           <p className="about-me-description">
-            Hey there 👋, thank you for visiting my page. My name is Patryk and
-            I enjoy solving problems writing code. I completed a Bachelor of
-            Computer Science degree at Governors State University. Development
-            has been a passion of mine ever since I was a young kid who was
-            influenced by my uncle and brother who are also developers.
-            Nowadays, I continue to challenge myself by learning and applying it
-            to solve complex problems. It inspires me how coding can reach so
-            many people, the possibilities feel endless!
+            I'm Patryk — a full-stack developer who thinks like an SEO
+            strategist and builds like an engineer. I hold a Bachelor's in
+            Computer Science from Governors State University, with development
+            being part of my life since childhood, shaped by watching my uncle
+            and brother build software of their own. What sets my work apart is
+            the intersection of two disciplines that rarely meet: full-stack
+            engineering and technical SEO. I build fast, scalable applications
+            using React, Next.js, Node.js, Java, and Spring Boot
           </p>
+          <p className="about-me-description">
+            I don't stop at "does it work." I dig into Core Web Vitals and site
+            architecture to make sure what I build actually gets discovered.
+            That's driven real results: a 225% increase in organic traffic, a
+            40% reduction in ad costs with 300%+ ROAS, and a 350+ page site
+            migration without losing SEO equity. I'm also a certified Salesforce
+            Administrator and Platform Developer I, and I've led Agile teams
+            through sprint planning and delivery. I lean heavily on AI tools to
+            accelerate my learning and stay current in a field that moves fast.
+          </p>
+
           <ul className="about-highlights">
             <li> B.S. in Computer Science - Governors State University</li>
             <li>
-              Full-stack apps built with React, Next.js & Node.js, MySQL, Java,
-              Spring Boot
+              Ship full-stack apps end-to-end with React, Next.js, Node.js,
+              Java, Spring Boot & MySQL
             </li>
             <li> Certified Salesforce Admin & Platform Developer I</li>
             <li> Grew organic traffic 225% through data-driven SEO</li>

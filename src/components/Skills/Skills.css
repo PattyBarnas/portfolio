@@ -1,11 +1,12 @@
 .logos {
   position: relative;
-  background-color: #e9ecef;
+  background-color: #000;
   overflow: hidden !important;
-  width: 90%;
+  width: 100%;
   height: 50%;
   padding: 5rem 0;
   white-space: nowrap;
+  margin: 0 auto;
 }
 
 .logos::before,

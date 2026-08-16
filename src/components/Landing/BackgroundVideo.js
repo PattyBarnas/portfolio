@@ -6,7 +6,7 @@ import vid from "../Images/vid.mp4";
 
 export default function BackgroundVideo() {
   return (
-    <div>
+    <div className="background-video-wrapper">
       <div className="video-overlay" />
       <video
         muted

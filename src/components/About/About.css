@@ -35,7 +35,6 @@
   content: "";
   display: flex;
   margin: 1.8rem auto;
-
   background-color: #a5d8ff;
   height: 0.5%;
   width: 5%;
@@ -103,10 +102,12 @@ div .about-btn {
   color: black;
 }
 .about-highlights {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
+  padding: 0 2rem;
 }
 @media (max-width: 1500px) {
   .about {
+    height: 100%;
     grid-template-columns: 1fr;
     width: 90%;
   }

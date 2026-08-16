@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import BackgroundVideo from "./components/Landing/BackgroundVideo";
 import LandingPage from "./components/Landing/LandingPage";
 import Skills from "./components/Skills/Skills";
+import FrequentlyAskedQuestions from "./components/Faqs/FrequentlyAskedQuestions";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
 
       <section id="section-projects" className="section-projects">
         <Projects />
+      </section>
+      <section id="section-faqs" className="section-faqs">
+        <FrequentlyAskedQuestions />
       </section>
       <section id="section-contact" className="section-contact">
         <ContactForm />
