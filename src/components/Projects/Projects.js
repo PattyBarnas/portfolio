@@ -44,7 +44,7 @@ const Projects = () => {
           initial="offscreen"
           whileInView="onscreen"
           variants={cardVariants}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: "400px" }}
         >
           <div className="project-image">
             <img src={shop} alt="E-commerce project" className="project-ecom" />
@@ -82,7 +82,7 @@ const Projects = () => {
           initial="offscreen"
           whileInView="onscreen"
           variants={cardVariants}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: "400px" }}
         >
           <div className="project-content">
             <h3 className="project-subheading">Warner's Decking</h3>
@@ -114,7 +114,7 @@ const Projects = () => {
           className="project-container"
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: "300px" }}
           variants={cardVariants}
         >
           <div className="project-image">

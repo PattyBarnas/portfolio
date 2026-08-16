@@ -57,7 +57,7 @@
   margin: 0 auto;
   margin-bottom: 14rem;
   width: 90%;
-  height: 600px;
+  height: 80vh;
   border-radius: 12px;
 }
 
@@ -133,6 +133,7 @@ a {
     height: 100%;
     width: 86%;
     overflow: hidden;
+    margin-bottom: 4rem;
   }
 
   .projects-header p {
