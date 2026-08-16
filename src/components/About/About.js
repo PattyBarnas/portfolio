@@ -23,7 +23,7 @@ const About = () => {
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: ["About Me.", "Full-stack developer with a technical SEO edge"],
+    strings: ["About Me.", "Thanks For Visting"],
     autoStart: true,
     loop: true,
     pauseFor: 3000,

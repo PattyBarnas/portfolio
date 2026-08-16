@@ -1,7 +1,7 @@
 .logos {
   position: relative;
   background-color: #e9ecef;
-  overflow: hidden;
+  overflow: hidden !important;
   width: 90%;
   height: 50%;
   padding: 5rem 0;

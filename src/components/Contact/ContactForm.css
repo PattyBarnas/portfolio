@@ -98,6 +98,9 @@ form label {
 }
 
 @media (max-width: 768px) {
+  .back {
+    padding: 1.2rem;
+  }
   form {
     width: 95%;
     padding: 1.8rem;
