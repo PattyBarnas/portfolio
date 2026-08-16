@@ -30,14 +30,14 @@ const Projects = () => {
               featuring a secure REST API, MongoDB database, user
               authentication, shopping cart, Stripe payments, and responsive UI.
             </p>
-            <ul className="project-features">
+            {/* <ul className="project-features">
               <li>Authentication</li>
               <li>Stripe Integration</li>
               <li>Cart & Check Out</li>
               <li>State Management</li>
               <li>Database Schema</li>
               <li>Notifications</li>
-            </ul>
+            </ul> */}
 
             <div className="btn-container">
               <div className="btn b1">

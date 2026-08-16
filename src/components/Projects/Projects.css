@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  padding: 3.2rem 0;
+  padding: 8.4rem 2rem;
   padding-bottom: 0.2rem;
 }
 
@@ -37,8 +37,9 @@
 .projects-header p {
   width: 40%;
   font-weight: 200;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 6rem;
+  color: #b4b3b3;
 }
 
 /* ------------------------------- */
@@ -108,7 +109,7 @@ a {
   font-size: 2.3rem;
   font-weight: 200;
   letter-spacing: 0.6px;
-  color: #e9ecef;
+  color: #fff;
   width: 90%;
   margin-bottom: auto;
 }
@@ -132,7 +133,7 @@ a {
   }
 
   .projects-header p {
-    width: 80%;
+    width: 90%;
   }
   .project-content {
     text-align: center;
@@ -141,6 +142,9 @@ a {
 
   .project-image {
     order: 1;
+  }
+  .project-image img {
+    height: 300px;
   }
 }
 
