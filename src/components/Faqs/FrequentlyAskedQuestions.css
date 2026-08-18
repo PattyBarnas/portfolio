@@ -1,3 +1,33 @@
-ul {
-  height: 80vh;
+.faq-container ul {
+  list-style: none;
+  padding: 2rem;
+}
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 4.8rem;
+  height: 100%;
+  text-align: center;
+}
+
+.faq-header {
+  margin-bottom: 1.2rem;
+  width: 25%;
+}
+.faq-header h2 {
+  font-size: 4.2rem;
+  font-weight: 400;
+  margin: 1rem;
+}
+.faq-header p {
+  font-size: 1.5rem;
+}
+.faq-header span {
+  background-color: #99999980;
+  color: black;
+  border-radius: 18px;
+  padding: 0.2rem 0.9rem;
+  font-size: 1.2rem;
 }

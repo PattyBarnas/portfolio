@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 const cardVariants = {
   offscreen: {
-    y: 300,
+    y: 550,
     opacity: 0,
     scale: 0.4,
     rotate: -8,

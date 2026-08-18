@@ -3,9 +3,9 @@ import "./Question.css";
 
 function Question({ question, answer }) {
   return (
-    <li>
-      <div> daddys is here{question}</div>
-      <div>{answer}</div>
+    <li className="question-item">
+      <h3>{question}</h3>
+      <p>{answer}</p>
     </li>
   );
 }
