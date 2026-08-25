@@ -46,12 +46,10 @@ const About = () => {
           <p className="about-me-description">
             I'm Patryk — a full-stack developer who thinks like an SEO
             strategist and builds like an engineer. I hold a Bachelor's in
-            Computer Science from Governors State University, with development
-            being part of my life since childhood, shaped by watching my uncle
-            and brother build software of their own. What sets my work apart is
-            the intersection of two disciplines that rarely meet: full-stack
-            engineering and technical SEO. I build fast, scalable applications
-            using React, Next.js, Node.js, Java, and Spring Boot
+            Computer Science from Governors State University. What sets my work
+            apart is the intersection of two disciplines: full-stack engineering
+            and technical SEO. I build fast, scalable applications using React,
+            Next.js, Node.js, PHP, Java, and Spring Boot
           </p>
           <p className="about-me-description">
             I don't stop at "does it work." I dig into Core Web Vitals and site

@@ -6,10 +6,24 @@ import Modal from "../UIElements/Modal";
 import Backdrop from "../UIElements/Backdrop";
 import emailjs from "@emailjs/browser";
 
+import { motion } from "motion/react";
+
 // API Keys need to be updated
 let publicKey = "qm_baMBq4t7rgLwj_";
 let serviceId = "service_5gp0f0g";
 let templateId = "template_kd4fbvn";
+
+const cardVariants = {
+  offscreen: {
+    y: 450,
+  },
+  onscreen: {
+    y: 0,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
 
 const isEmpty = (val) => val.trim() === "";
 const isEmail = (value) =>
@@ -78,7 +92,13 @@ const ContactForm = () => {
   }`;
 
   return (
-    <div className="back">
+    <motion.div
+      className="back"
+      initial="offscreen"
+      whileInView="onscreen"
+      variants={cardVariants}
+      viewport={{ once: true, margin: "0px 0px 300px 0px" }}
+    >
       {formSubmitted && <Backdrop onClose={closeModalHandler} />}
       {formSubmitted && <Modal onClose={closeModalHandler} />}
 
@@ -134,7 +154,7 @@ const ContactForm = () => {
         </div>
         <Button>Send</Button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 

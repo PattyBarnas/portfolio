@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 const cardVariants = {
   offscreen: {
-    y: 550,
+    y: 500,
     opacity: 0,
     scale: 0.4,
     rotate: -8,
@@ -86,9 +86,11 @@ const Projects = () => {
           <div className="project-content">
             <h3 className="project-subheading">Warner's Decking</h3>
             <p className="project-description">
-              A fully responsive decking website built with React and Node.js,
-              featuring smooth navigation, reusable components, and a clean,
-              modern design optimized for desktop and mobile users
+              I developed and manage a fully responsive decking website built on
+              WordPress. I handle the website development, including custom PHP
+              functionality and WordPress features, as well as ongoing SEO
+              campaigns, content optimization, technical SEO, and overall
+              website performance.
             </p>
 
             <div className="btn-container">
