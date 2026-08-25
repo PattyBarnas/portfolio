@@ -26,9 +26,9 @@ function App() {
       <section id="section-projects" className="section-projects">
         <Projects />
       </section>
-      <section id="section-faqs" className="section-faqs">
+      {/* <section id="section-faqs" className="section-faqs">
         <FrequentlyAskedQuestions />
-      </section>
+      </section> */}
       <section id="section-contact" className="section-contact">
         <ContactForm />
       </section>

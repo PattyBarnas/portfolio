@@ -15,12 +15,12 @@ let templateId = "template_kd4fbvn";
 
 const cardVariants = {
   offscreen: {
-    y: 450,
+    y: 550,
   },
   onscreen: {
     y: 0,
     transition: {
-      duration: 0.5,
+      duration: 0.25,
     },
   },
 };
@@ -92,17 +92,18 @@ const ContactForm = () => {
   }`;
 
   return (
-    <motion.div
-      className="back"
-      initial="offscreen"
-      whileInView="onscreen"
-      variants={cardVariants}
-      viewport={{ once: true, margin: "0px 0px 300px 0px" }}
-    >
+    <div className="back">
       {formSubmitted && <Backdrop onClose={closeModalHandler} />}
       {formSubmitted && <Modal onClose={closeModalHandler} />}
 
-      <form onSubmit={formSubmitHandler} ref={form}>
+      <motion.form
+        onSubmit={formSubmitHandler}
+        ref={form}
+        initial="offscreen"
+        whileInView="onscreen"
+        variants={cardVariants}
+        viewport={{ once: true, margin: "0px 0px 150px 0px" }}
+      >
         <h2 className="contact-heading">Get in Touch.</h2>
         <p className="questions-msg">
           Have a question, a project in mind, or just want to say hello? Feel
@@ -153,8 +154,8 @@ const ContactForm = () => {
           )}
         </div>
         <Button>Send</Button>
-      </form>
-    </motion.div>
+      </motion.form>
+    </div>
   );
 };
 
