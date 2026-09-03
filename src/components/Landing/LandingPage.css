@@ -15,6 +15,8 @@
 
 .landing-container h2 {
   color: #fff;
+  animation-name: unblur;
+  animation-duration: 1.4s;
 }
 .heading-1 span {
   color: #a5d8ff;
@@ -102,6 +104,16 @@
 .header-text span {
   position: relative;
   color: white !important;
+}
+
+@keyframes unblur {
+  0% {
+    filter: blur(5px);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
 }
 
 @keyframes highlight {

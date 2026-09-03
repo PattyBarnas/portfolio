@@ -17,7 +17,7 @@
 #section-projects {
   background-position: top;
   color: white;
-  background: linear-gradient(#000);
+  background: linear-gradient(#12141c);
   z-index: 0;
 }
 
@@ -30,7 +30,6 @@
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1.8px;
-  /* text-align: left; */
   margin-bottom: 0;
 }
 
@@ -53,12 +52,13 @@
 .project-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #111;
+  background-color: #0f172a;
   margin: 0 auto;
   margin-bottom: 14rem;
   width: 90%;
   height: 600px;
   border-radius: 12px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
 }
 
 .project-image {
@@ -87,7 +87,6 @@
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-
   margin-right: 2.4rem;
 }
 

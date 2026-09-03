@@ -17,7 +17,7 @@ const LandingPage = (props) => {
           I'm 30 yo from Chicago, IL. Web developer working across the full
           stack. Specializing in React, Next.js, JavaScript, Node.js. I also
           have
-          <span className="sketch-highlight"> SEO,GEO, & SEM</span> experience
+          <span className="sketch-highlight"> SEO, GEO, & SEM</span> experience
         </p>
         <TabbedWorkEducation />
         {/* <a
