@@ -59,8 +59,9 @@ html {
 
 .header-app {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   /* overflow: hidden; */
+  background-color: #000;
 }
 
 body {

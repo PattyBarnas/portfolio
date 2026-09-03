@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 const cardVariants = {
   offscreen: {
-    y: 500,
+    y: 450,
     opacity: 0,
     scale: 0.4,
     rotate: -8,
@@ -20,7 +20,7 @@ const cardVariants = {
     rotate: 0,
     transition: {
       type: "spring",
-      bounce: 0.4,
+      bounce: 0.3,
       duration: 0.5,
     },
   },

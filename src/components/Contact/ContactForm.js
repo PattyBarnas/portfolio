@@ -15,7 +15,7 @@ let templateId = "template_kd4fbvn";
 
 const cardVariants = {
   offscreen: {
-    y: 550,
+    y: 450,
   },
   onscreen: {
     y: 0,
@@ -102,7 +102,7 @@ const ContactForm = () => {
         initial="offscreen"
         whileInView="onscreen"
         variants={cardVariants}
-        viewport={{ once: true, margin: "0px 0px 150px 0px" }}
+        viewport={{ once: true, margin: "0px 0px 200px 0px" }}
       >
         <h2 className="contact-heading">Get in Touch.</h2>
         <p className="questions-msg">

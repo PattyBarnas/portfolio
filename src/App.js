@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="header-app">
-        <BackgroundVideo />
+        {/* <BackgroundVideo /> */}
         <MainNavigation />
         <LandingPage />
       </header>

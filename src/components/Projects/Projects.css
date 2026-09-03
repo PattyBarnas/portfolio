@@ -99,7 +99,7 @@
 .b1:hover {
   background-position: 200px 0;
 }
-a {
+.btn a {
   color: #e9ecef;
   font-size: 2rem;
   text-transform: capitalize;
