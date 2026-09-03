@@ -1,0 +1,39 @@
+.events::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+}
+
+.events {
+  position: relative;
+}
+.events::before {
+  background: white;
+}
+.event.life .marker {
+  fill: #888;
+}
+.event.programming .marker {
+  fill: magenta;
+}
+.event.family .marker {
+  fill: red;
+}
+.content time {
+  font-family: concourse_4, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.events {
+  margin: 0.5em;
+}
+
+.event {
+  display: flex;
+}
+.event .marker {
+  position: relative;
+  left: -6px;
+  top: 6px;
+}

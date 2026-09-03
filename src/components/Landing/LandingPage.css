@@ -12,6 +12,10 @@
 .sun-img {
   width: 100px;
 }
+
+.landing-container h2 {
+  color: #fff;
+}
 .heading-1 span {
   color: #a5d8ff;
 }
@@ -25,7 +29,7 @@
   border-radius: 12px;
   margin-bottom: 2rem;
 }
-.sketch-highlight:before {
+/* .sketch-highlight:before {
   content: "";
   background-color: #4dabf7;
   width: 105%;
@@ -38,7 +42,7 @@
   padding: 0 0.3em;
   opacity: 45%;
   animation: highlight 2s;
-}
+} */
 
 .landing-container {
   display: flex;

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./TabbedWorkEducation.css";
 import WorkHistory from "./WorkHistory";
+import Education from "./Education";
 
 const TabbedWorkEducation = (props) => {
   const [active, setActive] = useState(1);
@@ -28,7 +29,8 @@ const TabbedWorkEducation = (props) => {
         </button>
       </div>
       <section className="tab-details">
-        {active === 1 && WorkHistory}
+        {active === 1 && <WorkHistory />}
+        {active === 2 && <Education />}
         {/* {} */}
       </section>
     </div>

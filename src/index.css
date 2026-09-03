@@ -59,16 +59,14 @@ html {
 
 .header-app {
   position: relative;
-  height: 70vh;
-  /* overflow: hidden; */
-  background-color: #000;
+
+  background-color: #030712;
 }
 
 body {
   margin: 0;
   padding: 0;
   color: #444;
-  /* min-width: 320px; */
 }
 
 code {
