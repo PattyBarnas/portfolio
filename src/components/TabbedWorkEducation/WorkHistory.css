@@ -13,7 +13,7 @@
   background: white;
 }
 .event.life .marker {
-  fill: #888;
+  fill: #999;
 }
 .event.programming .marker {
   fill: magenta;
@@ -36,4 +36,7 @@
   position: relative;
   left: -6px;
   top: 6px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
 }

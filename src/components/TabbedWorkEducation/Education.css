@@ -1,0 +1,18 @@
+.content h3 {
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+}
+.content li {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.4rem;
+}
+
+.content time {
+  color: #fff;
+}
+.content {
+  padding: 0.5rem 2rem;
+}

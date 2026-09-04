@@ -2,45 +2,51 @@ import "./Education.css";
 
 const Education = () => {
   return (
-    <section className="timeline-section">
-      <div className="timeline-container">
-        <div className="timeline-item left">
-          <div className="timeline-dot"></div>
-          <div className="timeline-content">
-            <span className="timeline-date">March 2026</span>
-            <h3>Project Kickoff</h3>
-            <p>
-              Initial planning phases, team assembly, and requirement gathering
-              completed successfully.
-            </p>
+    <div class="timeline">
+      <div class="events">
+        <div class="event life">
+          <svg
+            class="marker"
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+          >
+            <circle cx="6" cy="6" r="6"></circle>
+          </svg>
+
+          <div class="content">
+            <time> March 2021</time>
+            <h3>Governors State University </h3>
+            <div class="text">
+              <ul>
+                <li>Bachelor of Engineering- Computer Science.</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div className="timeline-item right">
-          <div className="timeline-dot"></div>
-          <div className="timeline-content">
-            <span className="timeline-date">June 2026</span>
-            <h3>Beta Release</h3>
-            <p>
-              Launched the core application prototype to early adopters for
-              interface testing.
-            </p>
-          </div>
-        </div>
+        <div class="event life">
+          <svg
+            class="marker"
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+          >
+            <circle cx="6" cy="6" r="6"></circle>
+          </svg>
 
-        <div className="timeline-item left">
-          <div className="timeline-dot"></div>
-          <div className="timeline-content">
-            <span className="timeline-date">September 2026</span>
-            <h3>Global Launch</h3>
-            <p>
-              The platform is live for all users worldwide with seamless
-              deployment integrations.
-            </p>
+          <div class="content">
+            <time>November 2020</time>
+            <h3>Moraine Valley Community College</h3>
+            <div class="text">
+              <ul>
+                <li>Associates of Science.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

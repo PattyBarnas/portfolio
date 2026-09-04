@@ -11,12 +11,11 @@ const LandingPage = (props) => {
         <h1 className="heading-1">
           Hi, I’m <span className="sketch-highlight">Patryk.</span>
         </h1>
-        <h2>30 yo web developer from Chicago, IL.</h2>
+        <h2>Web developer from Chicago, IL.</h2>
 
         <p className="header-text">
-          I'm 30 yo from Chicago, IL. Web developer working across the full
-          stack. Specializing in React, Next.js, JavaScript, Node.js. I also
-          have
+          I work across the full stack. Specializing in Next.js, React,
+          TypeScript, JavaScript, Node.js, and Java
           <span className="sketch-highlight"> SEO, GEO, & SEM</span> experience
         </p>
         <TabbedWorkEducation />
