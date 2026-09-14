@@ -8,10 +8,10 @@ const LandingPage = (props) => {
     <div className="landing-page">
       <div className="landing-container">
         <img className="sun-img" src={sunImg} alt="sun bouncing" />
+        <h2>Web developer from Chicago, IL.</h2>
         <h1 className="heading-1">
           Hi, I’m <span className="sketch-highlight">Patryk.</span>
         </h1>
-        <h2>Web developer from Chicago, IL.</h2>
 
         <p className="header-text">
           I work across the full stack. Specializing in Next.js, React,

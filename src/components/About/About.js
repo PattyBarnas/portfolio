@@ -43,6 +43,7 @@ const About = () => {
           }`}
         >
           <h2 id="about-me-heading">Meet Patryk</h2>
+
           <p className="about-me-description">
             I'm Patryk — a full-stack developer who thinks like an SEO
             strategist and builds like an engineer. I hold a Bachelor's in

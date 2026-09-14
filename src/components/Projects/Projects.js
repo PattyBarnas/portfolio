@@ -8,7 +8,7 @@ import { motion } from "motion/react";
 
 const cardVariants = {
   offscreen: {
-    y: 450,
+    y: 350,
     opacity: 0,
     scale: 0.4,
     rotate: -8,
@@ -21,7 +21,7 @@ const cardVariants = {
     transition: {
       type: "spring",
       bounce: 0.3,
-      duration: 0.5,
+      duration: 0.8,
     },
   },
 };
@@ -38,44 +38,6 @@ const Projects = () => {
       </div>
 
       <div className="main-container">
-        <motion.div
-          className="project-container"
-          initial="offscreen"
-          whileInView="onscreen"
-          variants={cardVariants}
-          viewport={{ once: true, margin: "0px 0px 300px 0px" }}
-        >
-          <div className="project-image">
-            <img src={shop} alt="E-commerce project" className="project-ecom" />
-          </div>
-          <div className="project-content">
-            <h3 className="project-subheading">E-commerce Store</h3>
-
-            <p className="project-description">
-              A full-stack e-commerce application built with React and Node.js,
-              featuring a secure REST API, MongoDB database, user
-              authentication, shopping cart, Stripe payments, and responsive UI.
-            </p>
-            {/* <ul className="project-features">
-              <li>Authentication</li>
-              <li>Stripe Integration</li>
-              <li>Cart & Check Out</li>
-              <li>State Management</li>
-              <li>Database Schema</li>
-              <li>Notifications</li>
-            </ul> */}
-
-            <div className="btn-container">
-              <div className="btn b1">
-                <a href="https://github.com/PattyBarnas/My-Shop">View</a>
-              </div>
-              <div className="btn b1">
-                <a href="https://github.com/PattyBarnas/My-Shop">GitHub</a>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
         <motion.div
           className="project-container"
           initial="offscreen"
@@ -139,6 +101,43 @@ const Projects = () => {
               </div>
               <div className="btn b1">
                 <a href="https://github.com/PattyBarnas/ClothingInc">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          className="project-container"
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={cardVariants}
+          viewport={{ once: true, margin: "0px 0px 300px 0px" }}
+        >
+          <div className="project-image">
+            <img src={shop} alt="E-commerce project" className="project-ecom" />
+          </div>
+          <div className="project-content">
+            <h3 className="project-subheading">E-commerce Store</h3>
+
+            <p className="project-description">
+              A full-stack e-commerce application built with React and Node.js,
+              featuring a secure REST API, MongoDB database, user
+              authentication, shopping cart, Stripe payments, and responsive UI.
+            </p>
+            {/* <ul className="project-features">
+              <li>Authentication</li>
+              <li>Stripe Integration</li>
+              <li>Cart & Check Out</li>
+              <li>State Management</li>
+              <li>Database Schema</li>
+              <li>Notifications</li>
+            </ul> */}
+
+            <div className="btn-container">
+              <div className="btn b1">
+                <a href="https://github.com/PattyBarnas/My-Shop">View</a>
+              </div>
+              <div className="btn b1">
+                <a href="https://github.com/PattyBarnas/My-Shop">GitHub</a>
               </div>
             </div>
           </div>

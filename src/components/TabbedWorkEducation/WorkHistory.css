@@ -1,3 +1,5 @@
+/*  */
+
 .events::before {
   content: "";
   position: absolute;
@@ -15,12 +17,7 @@
 .event.life .marker {
   fill: #999;
 }
-.event.programming .marker {
-  fill: magenta;
-}
-.event.family .marker {
-  fill: red;
-}
+
 .content time {
   font-family: concourse_4, Helvetica, sans-serif;
   font-weight: bold;

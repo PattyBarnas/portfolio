@@ -13,22 +13,23 @@ function App() {
   return (
     <div className="App">
       <header className="header-app">
-        {/* <BackgroundVideo /> */}
         <MainNavigation />
+        <BackgroundVideo />
         <LandingPage />
       </header>
+      <section>
+        <h3>CTA GET IN TOUCH</h3>
+        <p>TESTING</p>
+      </section>
+      <section id="section-projects" className="section-projects">
+        <Projects />
+      </section>
 
       <section id="section-about" className="section-about">
         <About />
         <Skills />
       </section>
 
-      <section id="section-projects" className="section-projects">
-        <Projects />
-      </section>
-      {/* <section id="section-faqs" className="section-faqs">
-        <FrequentlyAskedQuestions />
-      </section> */}
       <section id="section-contact" className="section-contact">
         <ContactForm />
       </section>
