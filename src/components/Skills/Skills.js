@@ -6,16 +6,16 @@ function skills() {
   return (
     <div className="logos">
       <div className="logos-header">
-        <span>Full Stack Development</span>
-        <h3>Technologies I Have Experience With.</h3>
+        <h3>Technologies I Work With.</h3>
 
         <p>
-          I have a well-rounded foundation in frontend and backend development,
-          solving problems across the full stack. I enjoy building, learning,
-          and taking on new challenges.{" "}
+          Hi, I have a experience working with custom code - TypeScript /
+          JavaScript, Node.js, Express.js, Java, and more. I worked with CMS
+          like Wix and WordPress utilizing their REST APIs. I'm also certified
+          as a Salesforce administrator and a Salesforce Developer I.{" "}
         </p>
       </div>
-      {/* <div> */}
+
       <div className="scroll-track">
         <div className="scroll-slide">
           <span>Java</span>

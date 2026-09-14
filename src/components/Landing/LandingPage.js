@@ -18,7 +18,7 @@ const LandingPage = (props) => {
           TypeScript, JavaScript, Node.js, and Java
           <span className="sketch-highlight"> SEO, GEO, & SEM</span> experience
         </p>
-        <TabbedWorkEducation />
+        {/* <TabbedWorkEducation /> */}
         {/* <a
           href="#section-projects"
           // className="btn-landing btn-white btn-animated"

@@ -90,6 +90,7 @@
 
 @keyframes unblur {
   0% {
+    transform: translateY(-100%);
     filter: blur(5px);
   }
 
