@@ -2,11 +2,11 @@ import "./Education.css";
 
 const Education = () => {
   return (
-    <div class="timeline">
-      <div class="events">
-        <div class="event life">
+    <div className="timeline">
+      <div className="events">
+        <div className="event life">
           <svg
-            class="marker"
+            className="marker"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -14,10 +14,10 @@ const Education = () => {
             <circle cx="6" cy="6" r="6"></circle>
           </svg>
 
-          <div class="content">
+          <div className="content">
             <time> March 2021</time>
             <h3>Governors State University </h3>
-            <div class="text">
+            <div className="text">
               <ul>
                 <li>Bachelor of Engineering- Computer Science.</li>
               </ul>
@@ -25,9 +25,9 @@ const Education = () => {
           </div>
         </div>
 
-        <div class="event life">
+        <div className="event life">
           <svg
-            class="marker"
+            className="marker"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -35,10 +35,10 @@ const Education = () => {
             <circle cx="6" cy="6" r="6"></circle>
           </svg>
 
-          <div class="content">
+          <div className="content">
             <time>November 2020</time>
             <h3>Moraine Valley Community College</h3>
-            <div class="text">
+            <div className="text">
               <ul>
                 <li>Associates of Science.</li>
               </ul>

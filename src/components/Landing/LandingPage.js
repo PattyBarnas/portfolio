@@ -1,13 +1,10 @@
 import "./LandingPage.css";
 import React from "react";
-import sunImg from "../Images/hero-sun-gif.webp";
-import TabbedWorkEducation from "../TabbedWorkEducation/TabbedWorkEducation";
 
 const LandingPage = (props) => {
   return (
     <div className="landing-page">
       <div className="landing-container">
-        <img className="sun-img" src={sunImg} alt="sun bouncing" />
         <h2>Web developer from Chicago, IL.</h2>
         <h1 className="heading-1">
           Hi, I’m <span className="sketch-highlight">Patryk.</span>

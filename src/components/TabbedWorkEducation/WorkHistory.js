@@ -2,11 +2,11 @@ import "./WorkHistory.css";
 
 const WorkHistory = () => {
   return (
-    <div class="timeline">
-      <div class="events">
-        <div class="event life">
+    <div className="timeline">
+      <div className="events">
+        <div className="event life">
           <svg
-            class="marker"
+            className="marker"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -14,10 +14,10 @@ const WorkHistory = () => {
             <circle cx="6" cy="6" r="6"></circle>
           </svg>
 
-          <div class="content">
+          <div className="content">
             <time> March 2025 - Present</time>
             <h3>Web Developer & SEO</h3>
-            <div class="text">
+            <div className="text">
               <ul>
                 <li>
                   Migrated and optimized 350+ webpages using PHP, JavaScript,
@@ -39,9 +39,9 @@ const WorkHistory = () => {
             </div>
           </div>
         </div>
-        <div class="event life">
+        <div className="event life">
           <svg
-            class="marker"
+            className="marker"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -49,10 +49,10 @@ const WorkHistory = () => {
             <circle cx="6" cy="6" r="6"></circle>
           </svg>
 
-          <div class="content">
+          <div className="content">
             <time>Dec 2024 - March 2025</time>
             <h3>Salesforce Developer</h3>
-            <div class="text">
+            <div className="text">
               <ul>
                 <li>
                   Earned Salesforce Platform Developer I and System
@@ -72,9 +72,9 @@ const WorkHistory = () => {
             </div>
           </div>
         </div>
-        <div class="event life">
+        <div className="event life">
           <svg
-            class="marker"
+            className="marker"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -82,10 +82,10 @@ const WorkHistory = () => {
             <circle cx="6" cy="6" r="6"></circle>
           </svg>
 
-          <div class="content">
+          <div className="content">
             <time>July 2024 – Dec 2024</time>
             <h3>Java Intern</h3>
-            <div class="text">
+            <div className="text">
               <ul>
                 <li>
                   Developed RESTful APIs and a SQL-backed data access layer for
@@ -100,9 +100,9 @@ const WorkHistory = () => {
             </div>
           </div>
         </div>
-        <div class="event life">
+        <div className="event life">
           <svg
-            class="marker"
+            className="marker"
             xmlns="http://www.w3.org/2000/svg"
             width="12"
             height="12"
@@ -110,10 +110,10 @@ const WorkHistory = () => {
             <circle cx="6" cy="6" r="6"></circle>
           </svg>
 
-          <div class="content">
+          <div className="content">
             <time>November 2023 – April 2024</time>
             <h3>Full Stack Developer Internship</h3>
-            <div class="text">
+            <div className="text">
               <ul>
                 <li>
                   Developed responsive and reusable React components and dynamic

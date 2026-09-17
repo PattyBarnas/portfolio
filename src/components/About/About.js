@@ -34,9 +34,13 @@ const About = () => {
   return (
     <>
       <div className="about">
-        <div id="typewriter" className="about-heading"></div>
-        <div className={`about-me ${visible ? "about-me-animate" : ""}`}>
+        <div id="typewriter" className="about-heading" />
+        <div className="img-container">
           <img src={imageOfMe} alt="me" ref={ref}></img>
+          <img src={imageOfMe} alt="me" ref={ref}></img>
+          <img src={imageOfMe} alt="me" ref={ref}></img>
+        </div>
+        <div className={`about-me ${visible ? "about-me-animate" : ""}`}>
           <div>
             <h2 id="about-me-heading">Meet Patryk</h2>
 
