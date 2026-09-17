@@ -1,8 +1,6 @@
 import "./About.css";
 import React, { useState, useRef, useEffect } from "react";
 import imageOfMe from "../Images/patryk-barnas-portfolio.webp";
-// import resume from "../Resume/PatrykBarnas.docx";
-import resume from "../Resume/PB.pdf";
 import Typewriter from "typewriter-effect/dist/core";
 import TabbedWorkEducation from "../TabbedWorkEducation/TabbedWorkEducation";
 
@@ -42,15 +40,14 @@ const About = () => {
             <img src={imageOfMe} alt="me" ref={ref}></img>
           </div>
           <div>
-            <h2 id="about-me-heading">Meet Patryk</h2>
+            <h2 id="about-me-heading">Full-stack web developer</h2>
 
             <p className="about-me-description">
-              Full-stack web developer who thinks like an SEO strategist and
-              builds like an engineer. I hold a Bachelor's in Computer Science.
-              What sets my work apart is the intersection of two disciplines:
-              full-stack engineering and technical SEO. I build fast, scalable
-              applications using React, Next.js, Node.js, PHP, Java, and Spring
-              Boot
+              When I build website I think like a SEO strategist. I hold a
+              Bachelor's in Computer Science. What sets my work apart is the
+              intersection of two disciplines: full-stack engineering and
+              technical SEO. I build fast, scalable applications using React,
+              Next.js, Node.js, PHP, Java, and Spring Boot
             </p>
 
             <ul className="about-highlights">
