@@ -13,7 +13,7 @@ const LandingPage = (props) => {
           I work across the full stack. Specializing in Next.js, React,
           TypeScript, JavaScript, Node.js, and Java.
           <span className="sketch-highlight"> SEO, GEO, & SEM</span> experience.
-          I also speak Polish.
+          I'm bilingual'.
         </p>
       </div>
     </div>

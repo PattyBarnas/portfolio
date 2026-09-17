@@ -1,6 +1,8 @@
 import "./About.css";
 import React, { useState, useRef, useEffect } from "react";
 import imageOfMe from "../Images/patryk-barnas-portfolio.webp";
+import imageOfMe2 from "../Images/puerto-rico.webp";
+import imageOfMe3 from "../Images/surfing.webp";
 import Typewriter from "typewriter-effect/dist/core";
 import TabbedWorkEducation from "../TabbedWorkEducation/TabbedWorkEducation";
 
@@ -36,8 +38,8 @@ const About = () => {
         <div className="about-container">
           <div className="img-container">
             <img src={imageOfMe} alt="me" ref={ref}></img>
-            <img src={imageOfMe} alt="me" ref={ref}></img>
-            <img src={imageOfMe} alt="me" ref={ref}></img>
+            <img src={imageOfMe3} alt="me" ref={ref}></img>
+            <img src={imageOfMe2} alt="me" ref={ref}></img>
           </div>
           <div>
             <h2 id="about-me-heading">Full-stack web developer</h2>
