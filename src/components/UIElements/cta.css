@@ -5,7 +5,7 @@
   justify-content: center;
   text-align: center;
   padding: 16.8rem;
-  background-color: #030712;
+  background-color: #fff;
   gap: 2rem;
 }
 .sun-img {
@@ -19,16 +19,16 @@
 .cta-container h3 {
   margin: 0;
   font-size: 8.4rem;
-  color: #fff;
+  color: #030712;
   margin-bottom: 4.2rem;
 }
 
 .cta-container a {
   text-decoration: none;
-  border: 2px #fff solid;
+  border: 2px #030712 solid;
   padding: 2.2rem 4.8rem;
   font-size: 17px;
-  color: #fff;
+  color: #030712;
 
   transition:
     background-color 0.2s ease,
@@ -37,6 +37,7 @@
 
 .cta-container a:hover {
   background-color: #020a0c;
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(147, 197, 253, 0.35);
 }

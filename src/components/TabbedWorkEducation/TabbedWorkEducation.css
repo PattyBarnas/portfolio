@@ -1,5 +1,17 @@
+.tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.8rem;
+  padding: 1rem;
+  background-color: #1f2937;
+  border-radius: 9px;
+  width: 75%;
+  margin: 2.2rem auto;
+}
+
 .tab-btn {
-  width: 80%;
+  width: 100%;
   border-radius: 9px;
   border: none;
   background: transparent;
@@ -15,20 +27,10 @@
 }
 
 .tab-details {
-  width: 700px;
-
+  width: 75%;
   background-color: #030712;
   border: 1px solid #666;
   border-radius: 12px;
   padding: 2.4rem;
-}
-.tab-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 1.8rem;
-  padding: 1rem;
-  background-color: #1f2937;
-  border-radius: 9px;
-  margin-bottom: 2.2rem;
+  margin: 0 auto;
 }
