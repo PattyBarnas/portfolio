@@ -5,6 +5,7 @@ import imageOfMe2 from "../Images/puerto-rico.webp";
 import imageOfMe3 from "../Images/surfing.webp";
 import Typewriter from "typewriter-effect/dist/core";
 import TabbedWorkEducation from "../TabbedWorkEducation/TabbedWorkEducation";
+import Skills from "../Skills/Skills";
 
 const About = () => {
   const ref = useRef();
@@ -17,14 +18,17 @@ const About = () => {
         const entry = entries[0];
         entry.isIntersecting && setVisible(true);
       },
-      { threshold: 0.4 },
+      { threshold: 0.2 },
     );
     observer.observe(ref.current);
   }, []);
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: ["About Me.", "Thanks For Visting"],
+    strings: [
+      "I've Been Programming For 6 Years.",
+      "I Enjoy Working With JavaScript, React.",
+    ],
     autoStart: true,
     loop: true,
     pauseFor: 3000,
@@ -65,7 +69,12 @@ const About = () => {
             </div> */}
           </div>
         </div>
-        <TabbedWorkEducation />
+        <div className="dashboard-container">
+          <div>
+            <TabbedWorkEducation />
+          </div>
+          <div>{/* <Skills /> */}</div>
+        </div>
         <div className={`about-me ${visible ? "about-me-animate" : ""}`}></div>
         <div
           className={`about-me-content ${

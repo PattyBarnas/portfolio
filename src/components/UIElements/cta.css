@@ -1,13 +1,15 @@
 .cta-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 16.8rem;
   background-color: #fff;
   gap: 2rem;
+  padding: 4rem 2rem;
 }
+
 .sun-img {
   width: 100px;
 }
@@ -18,9 +20,9 @@
 
 .cta-container h3 {
   margin: 0;
-  font-size: 8.4rem;
+  font-size: 4.4rem;
   color: #030712;
-  margin-bottom: 4.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .cta-container a {

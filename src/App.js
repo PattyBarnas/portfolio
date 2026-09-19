@@ -16,17 +16,17 @@ function App() {
         <LandingPage />
         <BackgroundVideo />
       </header>
-
-      <section id="section-projects" className="section-projects">
-        <Projects />
-      </section>
-      <section>
-        <CTA />
-      </section>
       <section id="section-about" className="section-about">
         <About />
       </section>
 
+      <section>
+        <CTA />
+      </section>
+
+      <section id="section-projects" className="section-projects">
+        <Projects />
+      </section>
       <section id="section-contact" className="section-contact">
         <ContactForm />
       </section>

@@ -10,10 +10,9 @@ const LandingPage = (props) => {
         </h1>
 
         <p className="header-text">
-          I work across the full stack. Specializing in Next.js, React,
+          I work across the full stack, specializing in Next.js, React,
           TypeScript, JavaScript, Node.js, and Java.
           <span className="sketch-highlight"> SEO, GEO, & SEM</span> experience.
-          I'm bilingual'.
         </p>
       </div>
     </div>

@@ -19,7 +19,11 @@ const Education = () => {
             <h3>Governors State University </h3>
             <div className="text">
               <ul>
-                <li>Bachelor of Engineering- Computer Science.</li>
+                <li>
+                  Bachelor of Engineering- Computer Science. I graduated with a
+                  3.63 GPA. I enjoy working with Web, Mobile, and App
+                  development TDD APPROACHED.
+                </li>
               </ul>
             </div>
           </div>

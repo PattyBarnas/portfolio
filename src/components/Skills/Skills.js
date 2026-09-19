@@ -11,8 +11,7 @@ function skills() {
         <p>
           Hi, I have a experience working with custom code - TypeScript /
           JavaScript, Node.js, Express.js, Java, and more. I worked with CMS
-          like Wix and WordPress utilizing their REST APIs. I'm also certified
-          as a Salesforce administrator and a Salesforce Developer I.{" "}
+          like Wix and WordPress utilizing their REST APIs.{" "}
         </p>
       </div>
 
