@@ -32,3 +32,9 @@
   padding: 2.4rem;
   margin: 0 auto;
 }
+
+@media (max-width: 592px) {
+  .tab-details {
+    min-width: 100%;
+  }
+}
