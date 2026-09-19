@@ -1,13 +1,14 @@
 .skills {
   width: 100%;
-  max-width: none;
   background: #fff;
   padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
-/* ---------- Phone = the container ---------- */
 .phone {
-  --w: min(900px, 100vw);
+  --w: 950px;
+  --nudge: 2%;
   --trim-top: 0.25;
   --screen-top: 30.4%;
   --screen-left: 34.6%;
@@ -15,9 +16,10 @@
   --screen-height: 60.5%;
   position: relative;
   width: var(--w);
-  max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   margin-top: calc(var(--w) * var(--trim-top) * -1);
+  left: 50%;
+  transform: translateX(calc(-50% + var(--nudge)));
 }
 
 .phone-frame {
@@ -54,19 +56,19 @@
 }
 
 .skills .phone-screen h3 {
-  margin: 0 0 0.8rem;
-  font-size: 2.8rem;
+  margin: 0 0 4rem;
+  font-size: 3.4rem;
   line-height: 1.2;
   color: #222;
 }
 
 .skills .phone-screen p {
-  margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   letter-spacing: 0.02em;
   color: #222;
   margin-bottom: 2rem;
+  /* text-align: left; */
 }
 
 .scroll-track {

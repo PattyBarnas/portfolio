@@ -44,7 +44,7 @@ function Skills() {
             ))}
           </div>
 
-          <a href="mailto:patrykbarnas@yahoo.com">Send Email</a>
+          <a href="mailto:patrykbarnas@yahoo.com">Get in Touch.</a>
         </div>
       </div>
     </section>
