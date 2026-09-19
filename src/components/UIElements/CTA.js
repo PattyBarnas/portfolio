@@ -8,7 +8,6 @@ const CTA = () => {
       <img className="sun-img" src={sunImg} alt="sun bouncing" />
       <h3>Get in Touch.</h3>
       <Skills />
-      <a href="mailto:patrykbarnas@yahoo.com">Send Email</a>
     </div>
   );
 };

@@ -1,55 +1,54 @@
 import React from "react";
-
+import phoneFrame from "../Images/hold-phone.png";
 import "./Skills.css";
 
-function skills() {
+const SKILLS = [
+  "Java",
+  "TypeScript",
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Spring Boot",
+  "Node.js",
+  "Express.js",
+  "MySQL",
+  "MongoDB",
+  "Git",
+  "Unit Testing",
+  "Data structures",
+];
+
+function Skills() {
   return (
-    <div className="logos">
-      <div className="logos-header">
-        <h3>Technologies I Work With.</h3>
+    <section className="skills">
+      <div className="phone">
+        <img className="phone-frame" src={phoneFrame} alt="" />
 
-        <p>
-          Hi, I have a experience working with custom code - TypeScript /
-          JavaScript, Node.js, Express.js, Java, and more. I worked with CMS
-          like Wix and WordPress utilizing their REST APIs.{" "}
-        </p>
-      </div>
+        <div className="phone-screen">
+          <div className="screen-header">
+            <h3>Technologies I Work With.</h3>
+            <p>
+              Hi, I have a experience working with custom code - TypeScript /
+              JavaScript, Node.js, Express.js, Java, and more. I worked with CMS
+              like Wix and WordPress utilizing their REST APIs.
+            </p>
+          </div>
 
-      <div className="scroll-track">
-        <div className="scroll-slide">
-          <span>Java</span>
-          <span>TypeScript</span>
-          <span>JavaScript</span>
-          <span>React</span>
-          <span>Next.js</span>
-          <span>Spring Boot</span>
-          <span>Node.js</span>
-          <span>Express.js</span>
-          <span>MySQL</span>
-          <span>MongoDB</span>
-          <span>Git</span>
-          <span>Unit Testing</span>
-          <span>Data structures</span>
-        </div>
-        <div className="scroll-slide">
-          <span>Java</span>
-          <span>TypeScript</span>
-          <span>JavaScript</span>
-          <span>React</span>
-          <span>Next.js</span>
-          <span>Spring Boot</span>
-          <span>Node.js</span>
-          <span>Express.js</span>
-          <span>MySQL</span>
-          <span>MongoDB</span>
-          <span>Git</span>
-          <span>Unit Testing</span>
-          <span>Data structures</span>
+          <div className="scroll-track">
+            {[0, 1].map((n) => (
+              <div className="scroll-slide" key={n} aria-hidden={n === 1}>
+                {SKILLS.map((skill) => (
+                  <span key={skill}>{skill}</span>
+                ))}
+              </div>
+            ))}
+          </div>
+
+          <a href="mailto:patrykbarnas@yahoo.com">Send Email</a>
         </div>
       </div>
-    </div>
-    // </div>
+    </section>
   );
 }
 
-export default skills;
+export default Skills;

@@ -1,130 +1,155 @@
-.logos {
+.skills {
+  width: 100%;
+  max-width: none;
+  background: #fff;
+  padding: 0;
+}
+
+/* ---------- Phone = the container ---------- */
+.phone {
+  --w: min(900px, 100vw);
+  --trim-top: 0.25;
+  --screen-top: 30.4%;
+  --screen-left: 34.6%;
+  --screen-width: 28%;
+  --screen-height: 60.5%;
   position: relative;
-  /* border: 2px solid #212529; */
-  /* border-radius: 12px; */
-  overflow: hidden !important;
-  width: 550px;
-  padding: 6.8rem;
+  width: var(--w);
+  max-width: 100%;
   margin: 0 auto;
-  background-color: #fff;
-  background-image: url("../Images/transparent-phone.webp");
-}
-.logos img {
-  height: 100%;
-}
-.logos .logos-header h3 {
-  font-size: 3.2rem;
-  color: #222;
+  margin-top: calc(var(--w) * var(--trim-top) * -1);
 }
 
-.logos-header {
-  width: 95%;
-  margin: 0 auto;
-  padding: 2rem;
+.phone-frame {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.phone-screen {
+  position: absolute;
+  z-index: 2;
+  top: var(--screen-top);
+  left: var(--screen-left);
+  width: var(--screen-width);
+  height: var(--screen-height);
+  overflow: hidden;
+  border-radius: 15% / 4%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 2.4rem 0 1.2rem; /* top padding clears the notch */
   text-align: center;
 }
 
-.logos h3 {
-  font-size: 2.2rem;
-  text-align: center;
-  margin-bottom: 1.9rem;
+/* ---------- Header text inside the screen ---------- */
+.screen-header {
+  padding: 0 1.4rem;
 }
 
-.logos p {
-  font-size: 1.4rem;
-  margin-bottom: 4.2rem;
+.skills .phone-screen h3 {
+  margin: 0 0 0.8rem;
+  font-size: 2.8rem;
+  line-height: 1.2;
   color: #222;
-  letter-spacing: 1.2px;
-  line-height: 2.2rem;
 }
+
+.skills .phone-screen p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
 .scroll-track {
-  white-space: nowrap;
-  margin-bottom: 3.2rem;
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-bottom: 2rem;
 }
-.scroll-slide span:hover {
-  background-color: #444;
-}
-.logos::before,
-.logos::after {
+
+.scroll-track::before,
+.scroll-track::after {
   content: "";
   position: absolute;
   top: 0;
-  width: 55px;
-  z-index: 2;
-  height: 100%;
+  bottom: 0;
+  width: 24px;
+  z-index: 3;
+  pointer-events: none;
 }
-.logos::before {
+.scroll-track::before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), #080d1a);
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
 }
-.logos::after {
+.scroll-track::after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #080d1a);
-}
-.scroll-slide {
-  display: inline-block;
-  animation: 16s scroll infinite linear;
-}
-.scroll-slide span {
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  margin: 0 10px;
-  letter-spacing: 0.3em;
-  background: #212529;
-  color: #fff;
-  font-weight: 500;
-  padding: 10px 15px;
-  border-radius: 5px;
+  background: linear-gradient(to left, #fff, rgba(255, 255, 255, 0));
 }
 
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
+.scroll-slide {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 12px;
+  padding-right: 12px;
+  animation: scroll-left 20s linear infinite;
+}
+
+.scroll-slide span {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: #212529;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.scroll-slide span:hover {
+  background-color: #444;
+}
+
+@keyframes scroll-left {
   to {
     transform: translateX(-100%);
   }
 }
 
-/* .scroll {
-  display: flex;
-  justify-content: center;
-  position: relative;
-   width: 700px;
-  background-color: white;
-  margin: 0 auto;
-  padding: 2%;
-  overflow: hidden;
+/* ---------- Email button inside the screen ---------- */
+.skills .phone-screen a {
+  padding: 0.9rem 2rem;
+  font-size: 1.1rem;
+  border: 2px solid #030712;
+  color: #030712;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
-.scroll div {
-  white-space: nowrap;
-  animation: scroll 20s linear infinite;
-}
-
-.scroll div span {
-  display: inline-flex;
-  margin: 10px;
-  letter-spacing: 0.2em;
-  background-color: #333;
+.skills .phone-screen a:hover {
+  background-color: #030712;
   color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: 0.5s;
+  transform: none;
+  box-shadow: none;
 }
 
-.scroll div span:hover {
-  background-color: #3fd2f9;
-  cursor: pointer;
+@media (prefers-reduced-motion: reduce) {
+  .scroll-slide {
+    animation: none;
+  }
 }
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-} */
-
-/* SCROLL  */
