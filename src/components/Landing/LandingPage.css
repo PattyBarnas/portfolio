@@ -157,7 +157,7 @@
 
 @media (max-width: 768px) {
   .landing-page {
-    height: 78vh;
+    height: 55vh;
   }
 
   .header-text {
@@ -170,5 +170,9 @@
   .landing-page p {
     line-height: 1.4;
     margin-bottom: 8.2rem;
+  }
+
+  .header-text {
+    width: 100%;
   }
 }
