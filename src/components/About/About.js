@@ -25,7 +25,7 @@ const About = () => {
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: ["Programming For 6 Years.", "I Work With JavaScript."],
+    strings: ["6 Years of Programming.", "I Work With TypeScript."],
     autoStart: true,
     loop: true,
     pauseFor: 3000,
