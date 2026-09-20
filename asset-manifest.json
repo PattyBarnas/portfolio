@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c85d3094.css",
-    "main.js": "/static/js/main.affaad3c.js",
+    "main.js": "/static/js/main.76a0ea5f.js",
     "static/media/vid.mp4": "/static/media/vid.196e6c0d580bd61a8567.mp4",
     "static/media/hold-phone.png": "/static/media/hold-phone.d21f49a5e5d5e76306da.png",
     "static/media/hero-sun-gif.webp": "/static/media/hero-sun-gif.3dfcdaf1a3a4aeb8870e.webp",
@@ -14,10 +14,10 @@
     "static/media/phone-men.svg": "/static/media/phone-men.977bf389a4d4dcb865aee84f1ec340ef.svg",
     "index.html": "/index.html",
     "main.c85d3094.css.map": "/static/css/main.c85d3094.css.map",
-    "main.affaad3c.js.map": "/static/js/main.affaad3c.js.map"
+    "main.76a0ea5f.js.map": "/static/js/main.76a0ea5f.js.map"
   },
   "entrypoints": [
     "static/css/main.c85d3094.css",
-    "static/js/main.affaad3c.js"
+    "static/js/main.76a0ea5f.js"
   ]
 }
