@@ -1,14 +1,13 @@
 .back {
   background-color: #f5f7fa;
-  padding: 4.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: auto;
+  padding: 4.2rem !important;
 }
 .contact-heading {
-  text-align: center;
   font-size: 3.8rem;
   font-weight: 500;
   color: white;
@@ -18,6 +17,7 @@
 
 form {
   position: relative;
+  text-align: center;
   display: flex;
   flex-direction: column;
   width: 60%;

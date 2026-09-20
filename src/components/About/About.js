@@ -18,7 +18,7 @@ const About = () => {
         const entry = entries[0];
         entry.isIntersecting && setVisible(true);
       },
-      { threshold: 0.05 },
+      { threshold: 0.03 },
     );
     observer.observe(ref.current);
   }, []);

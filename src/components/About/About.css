@@ -172,6 +172,7 @@ div .about-btn {
   .about-heading {
     font-size: clamp(2.6rem, 6vw, 3.8rem);
     text-align: center;
+    font-size: 3.4rem;
   }
 
   .about-heading::after {
@@ -193,7 +194,6 @@ div .about-btn {
     --overlap: 0.55;
     justify-content: center;
     width: 100%;
-    padding-top: 50px; /* room for the hover lift */
   }
 
   .img-container img {

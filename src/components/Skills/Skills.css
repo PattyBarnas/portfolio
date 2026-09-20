@@ -53,6 +53,7 @@
 /* ---------- Header text inside the screen ---------- */
 .screen-header {
   padding: 0 1.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .skills .phone-screen h3 {
@@ -76,7 +77,7 @@
   width: 100%;
   overflow: hidden;
   flex-shrink: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4.2rem;
 }
 
 .scroll-track::before,
