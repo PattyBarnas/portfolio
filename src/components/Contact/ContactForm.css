@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 3.2rem;
 }
 .contact-heading {
   text-align: center;
@@ -21,7 +20,7 @@ form {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 60%;
   height: 100%;
   align-items: center;
   background-color: #0f1729;

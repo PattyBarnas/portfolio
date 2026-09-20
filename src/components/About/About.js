@@ -25,10 +25,7 @@ const About = () => {
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: [
-      "I've Been Programming For 6 Years.",
-      "I Enjoy Working With JavaScript, React.",
-    ],
+    strings: ["Programming For 6 Years.", "I Work With JavaScript."],
     autoStart: true,
     loop: true,
     pauseFor: 3000,

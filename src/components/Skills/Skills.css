@@ -68,7 +68,6 @@
   letter-spacing: 0.02em;
   color: #222;
   margin-bottom: 2rem;
-  /* text-align: left; */
 }
 
 .scroll-track {
@@ -114,7 +113,7 @@
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.12em;
-  padding: 6px 10px;
+  padding: 1.4rem 4rem;
   border-radius: 5px;
   background: #212529;
   color: #fff;
@@ -133,8 +132,8 @@
 
 /* ---------- Email button inside the screen ---------- */
 .skills .phone-screen a {
-  padding: 0.9rem 2rem;
-  font-size: 1.1rem;
+  padding: 1.2rem 4.2rem;
+  font-size: 1.6rem;
   border: 2px solid #030712;
   color: #030712;
   text-decoration: none;

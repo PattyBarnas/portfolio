@@ -42,3 +42,9 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(147, 197, 253, 0.35);
 }
+
+@media (max-width: 1100px) {
+  .cta-container {
+    padding: 0;
+  }
+}

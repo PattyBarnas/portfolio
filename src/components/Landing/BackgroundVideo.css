@@ -17,3 +17,14 @@
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 768px) {
+  #bg-video,
+  .bg-video {
+    display: none;
+  }
+  .video-overlay {
+    top: 20%;
+    height: 75%;
+  }
+}
