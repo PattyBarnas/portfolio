@@ -46,17 +46,17 @@ const About = () => {
             <h2 id="about-me-heading">Full-stack web developer</h2>
 
             <p className="about-me-description">
-              When I build website I think like a SEO strategist. I hold a
-              Bachelor's in Computer Science. What sets my work apart is the
-              intersection of two disciplines: full-stack engineering and
+              I build website that are scalabable, performant, and secure. I
+              also focus on SEO to help with visibility across search engines. I
+              hold a Bachelor's in Computer Science. What sets my work apart is
+              the intersection of two disciplines: full-stack engineering and
               technical SEO. I build fast, scalable applications using React,
               Next.js, Node.js, PHP, Java, and Spring Boot
             </p>
 
             <ul className="about-highlights">
-              <li> B.S. in Computer Science - Governors State University</li>
-
-              <li> Certified Salesforce Admin & Platform Developer I</li>
+              <li>CRMs - Certified Salesforce Admin & Platform Developer I</li>
+              <li>CMS - I worked with WordPress, Wix, and SquareSpace.</li>
             </ul>
 
             {/* <div className="btn b1 about-btn">

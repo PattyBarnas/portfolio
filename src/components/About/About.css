@@ -29,7 +29,6 @@
   width: 70%;
   margin: 0 auto;
   padding: 8.8rem 8.8rem 2.8rem;
-  /* overflow-x: hidden; */
 }
 
 .about-skills {
@@ -157,13 +156,21 @@ div .about-btn {
   color: black;
 }
 .about-highlights {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding: 0 2rem;
 }
 
+@media (max-width: 1800px) {
+  .about {
+    width: 90%;
+  }
+  .img-container img {
+    width: 300px;
+  }
+}
 @media (max-width: 1100px) {
   .about {
-    width: 100%;
+    width: 100% !important;
     padding: 5rem 2.4rem 2.8rem;
     gap: 4rem;
   }
