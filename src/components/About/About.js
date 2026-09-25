@@ -25,7 +25,7 @@ const About = () => {
 
   const div = document.getElementById("typewriter");
   const typewriter = new Typewriter(div, {
-    strings: ["6 Years of Programming.", "I Work With TypeScript."],
+    strings: ["7 Years of Programming.", "Result Driven."],
     autoStart: true,
     loop: true,
     pauseFor: 3000,
@@ -42,21 +42,26 @@ const About = () => {
             <img src={imageOfMe3} alt="me" ref={ref}></img>
             <img src={imageOfMe2} alt="me" ref={ref}></img>
           </div>
-          <div>
-            <h2 id="about-me-heading">Full-stack web developer</h2>
+          <div className="description-containter">
+            <h2 id="about-me-heading">Software Development And Marketing</h2>
 
             <p className="about-me-description">
-              I build website that are scalabable, performant, and secure. I
-              also focus on SEO to help with visibility across search engines. I
-              hold a Bachelor's in Computer Science. What sets my work apart is
-              the intersection of two disciplines: full-stack engineering and
-              technical SEO. I build fast, scalable applications using React,
-              Next.js, Node.js, PHP, Java, and Spring Boot
+              I have a Bachelor's degree in Computer Science and a background in
+              software development, working with Java, C#, PHP, React, Next.js,
+              JavaScript, TypeScript, MySQL, and MongoDB.
+            </p>
+            <p className="about-me-description">
+              Over the past two years, I’ve expanded into digital marketing,
+              working with local SEO, Google Ads, social media advertising, web
+              development, and CRM automations that help businesses manage leads
+              and day-to-day processes.
             </p>
 
             <ul className="about-highlights">
               <li>CRMs - Certified Salesforce Admin & Platform Developer I</li>
               <li>CMS - I worked with WordPress, Wix, and SquareSpace.</li>
+              <li>SEO, Google Ads, Local Service Ads & Social Media Ads</li>
+              <li>CRM Development & Custom Automations</li>
             </ul>
 
             {/* <div className="btn b1 about-btn">

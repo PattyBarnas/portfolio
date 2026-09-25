@@ -23,17 +23,19 @@ const WorkHistory = () => {
                   Migrated and optimized 350+ webpages using PHP, JavaScript,
                   HTML, CSS, WordPress REST API, and Node.js.
                 </li>
+
                 <li>
-                  Led SEO, local SEO, and web development across WordPress, Wix,
-                  and Google Business Profiles.
+                  Local SEO, and web development across PHP, WordPress, Wix, and
+                  Google Business Profiles.
                 </li>
                 <li>
-                  Increased organic traffic 225% through technical, local, and
+                  Increased organic traffic 225% through technical and
                   data-driven SEO.
                 </li>
                 <li>
-                  Improved Core Web Vitals, site performance, schema, indexing,
-                  and site architecture.
+                  Improved site performance, site architecture, Core Web Vitals,
+                  accessibility, responsive on all devices, custom schema,
+                  indexing, AI visibility.
                 </li>
               </ul>
             </div>
